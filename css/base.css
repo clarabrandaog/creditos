@@ -1,0 +1,50 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-weight: var(--w-regular);
+  font-stretch: var(--wdth-normal);
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+}
+/* paper grain, drawn over everything */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: var(--grain);
+  background-image: url("../assets/grain.svg");
+}
+button, input { font: inherit; color: inherit; }
+a { color: inherit; }
+:focus-visible { outline: var(--line) solid var(--pink); outline-offset: var(--space-1); }
+[hidden] { display: none !important; }
+
+/* Page frame. Padding respects phone safe areas. */
+.shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: calc(var(--space-4) + env(safe-area-inset-top, 0px)) var(--space-4) calc(var(--space-16) + env(safe-area-inset-bottom, 0px));
+}
+
+/* The misprint: add class "w" and data-t="<same text>" to get a pink ghost offset behind it. */
+.w { position: relative; display: block; }
+.w::after {
+  content: attr(data-t);
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  width: 100%;                  /* same width as the text, so the ghost breaks lines in the same places */
+  color: var(--pink);
+  mix-blend-mode: var(--blend);
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,17 @@
+/* SearchField: a visible label, then an input set like the headline */
+.search-field__label { display: block; margin: var(--space-4) 0 var(--space-6); font-size: var(--text-md); font-stretch: var(--wdth-narrow); line-height: 1.4; }
+.search-field__input {
+  width: 100%;
+  padding: var(--space-1) 0;
+  background: transparent;
+  border: 0;
+  border-bottom: var(--line-heavy) solid var(--pink);
+  border-radius: 0;
+  font-size: var(--display-input);
+  font-weight: var(--w-black);
+  font-stretch: var(--wdth-condensed);
+  line-height: 1;
+  text-transform: uppercase;
+}
+.search-field__input::placeholder { color: var(--ink); opacity: .3; }
+.search-hints { display: flex; flex-wrap: wrap; align-items: center; gap: 0 var(--space-4); margin: var(--space-3) 0 0; font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); }

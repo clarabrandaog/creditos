@@ -1,0 +1,6 @@
+/* Hero: four lines, each with its own size and width. This is the concrete poetry. */
+.hero { margin: var(--space-6) 0 var(--space-2); font-weight: var(--w-black); text-transform: uppercase; }
+.hero__line--1 { font-size: var(--display-hero-1); font-stretch: var(--wdth-wide); line-height: .8; }
+.hero__line--2 { font-size: var(--display-hero-2); font-stretch: var(--wdth-condensed); line-height: .78; margin-top: var(--space-1); }
+.hero__line--3 { font-size: var(--display-hero-3); font-stretch: var(--wdth-wide); line-height: .85; margin-top: var(--space-1); }
+.hero__line--4 { font-size: var(--display-hero-4); font-stretch: var(--wdth-condensed); line-height: .85; margin-top: var(--space-1); }

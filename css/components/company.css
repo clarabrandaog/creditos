@@ -1,0 +1,8 @@
+/* CompanySection: the reveal under the torn ticket */
+.company { margin-top: var(--space-8); }
+.company--reveal { animation: rise var(--dur-slow) .35s var(--ease-out) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(var(--space-8)); } to { opacity: 1; transform: none; } }
+.company__count { margin: 0 0 var(--space-4); font-size: var(--display-count); font-weight: var(--w-black); font-stretch: var(--wdth-condensed); line-height: .82; text-transform: uppercase; }
+.company__count-label { display: block; font-size: .5em; font-stretch: var(--wdth-wide); line-height: 1; }
+.company__rule { max-width: 34ch; margin: 0 0 var(--space-6); font-size: var(--text-sm); font-stretch: var(--wdth-narrow); }
+.company__actions { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-6); margin-top: var(--space-6); }

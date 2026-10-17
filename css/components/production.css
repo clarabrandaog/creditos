@@ -1,0 +1,6 @@
+/* ProductionBlock: one run, where and when, then its company toggle and nights */
+.production { margin-top: var(--space-12); }
+.production__title { margin: 0; font-size: min(var(--display-line), 8vw); font-weight: var(--w-black); font-stretch: var(--wdth-wide); line-height: .95; text-transform: uppercase; }
+.production__sub { margin: var(--space-2) 0 var(--space-2); font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); line-height: 1.4; }
+.production__empty { margin: var(--space-3) 0 0; font-size: var(--text-sm); font-stretch: var(--wdth-narrow); line-height: 1.4; }
+.production .night-list { margin-top: var(--space-3); }

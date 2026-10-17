@@ -1,0 +1,4 @@
+/* Tally: a big count, its label set wide underneath (same voice as the company count).
+   The label is capped at 8vw so a long word like PRODUCTIONS fits a phone. */
+.tally { margin: 0 0 var(--space-4); font-size: var(--display-count); font-weight: var(--w-black); font-stretch: var(--wdth-condensed); line-height: .82; text-transform: uppercase; }
+.tally__label { display: block; font-size: min(.5em, 8vw); font-stretch: var(--wdth-wide); line-height: 1; }

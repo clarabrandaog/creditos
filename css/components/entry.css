@@ -1,0 +1,13 @@
+/* Entry: one search result. Variant "stubs" (home, no query) and "lines" (typed query). */
+.entry-list { margin: 0; padding: 0; list-style: none; }
+/* minmax(0, 1fr): a long word must not stretch the column past the card. Sizes below use cqw of the head. */
+.entry__head { container-type: inline-size; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: var(--space-1) var(--space-3); width: 100%; padding: 0; text-align: left; text-decoration: none; background: none; border: 0; color: inherit; cursor: pointer; }
+.entry__kind { grid-column: 1 / -1; font-size: var(--text-xs); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); }
+.entry__label { overflow-wrap: break-word; font-weight: var(--w-black); font-stretch: var(--wdth-wide); line-height: .95; text-transform: uppercase; }
+.entry__sub { grid-column: 1 / -1; font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); text-align: right; text-transform: lowercase; }
+.entry .row-list { margin-top: var(--space-3); }
+
+.entry-list--stubs .entry { margin-bottom: var(--space-6); padding: var(--space-4); border: var(--line) solid var(--ink); border-radius: var(--radius-lg); }
+.entry-list--stubs .entry__label { font-size: min(var(--display-stub), 12cqw); }   /* 12cqw fits a 9-letter word (HADESTOWN) */
+.entry-list--lines .entry { padding: var(--space-3) 0 var(--space-4); border-top: var(--line) solid var(--ink); }
+.entry-list--lines .entry__label { font-size: min(var(--display-line), 12cqw); }

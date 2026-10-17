@@ -1,0 +1,16 @@
+/* LinkButton: text action with a pink underline. Works on <button> and <a>. */
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch);
+  padding: 0;
+  background: none;
+  border: 0;
+  font-weight: var(--w-bold);
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: var(--line);
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+.link-btn--back { margin-bottom: var(--space-2); }

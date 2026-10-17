@@ -1,0 +1,7 @@
+/* Bio: a person's short text and one outside link, in one row under the page head, aligned at the bottom.
+   On a narrow screen the link wraps under the text. */
+.bio { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-3) var(--space-8); margin: 0 0 var(--space-8); }
+.bio__text { flex: 1 1 32ch; max-width: 60ch; font-size: var(--text-md); font-stretch: var(--wdth-narrow); line-height: 1.5; }
+.bio__text p { margin: 0 0 var(--space-3); }
+.bio__text p:last-child { margin-bottom: 0; }
+.bio__link { flex: 0 0 auto; margin-left: auto; overflow-wrap: anywhere; }   /* pushed to the right edge */

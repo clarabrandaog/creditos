@@ -1,0 +1,8 @@
+/* PageHead: kind label, a title fitted line by line (sizes from lib/title.js), one line under it */
+.page-head { margin: var(--space-6) 0 var(--space-8); }
+.page-head__kind { margin: 0; font-size: var(--text-xs); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); }
+.page-head__title { container-type: inline-size; margin: var(--space-3) 0 var(--space-4); font-weight: var(--w-black); text-transform: uppercase; }
+.page-head__line { line-height: .9; white-space: nowrap; }
+.page-head__line--wide { font-stretch: var(--wdth-wide); }
+.page-head__line--narrow { font-stretch: var(--wdth-condensed); }
+.page-head__sub { max-width: 40ch; margin: 0; font-size: var(--text-md); font-stretch: var(--wdth-narrow); line-height: 1.4; }

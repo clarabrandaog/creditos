@@ -1,0 +1,201 @@
+[
+  {
+    "id": "wicked",
+    "title": "Wicked",
+    "originalLanguage": "en",
+    "premiereYear": 2003,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      { "id": "elphaba", "name": "Elphaba" },
+      { "id": "glinda", "name": "Glinda" },
+      { "id": "fiyero", "name": "Fiyero" },
+      { "id": "wizard", "name": "The Wizard" }
+    ],
+    "synopsis": "The untold story of the witches of Oz, before Dorothy arrived.",
+    "composers": ["p-stephen-schwartz"]
+  },
+  {
+    "id": "hamilton",
+    "title": "Hamilton",
+    "originalLanguage": "en",
+    "premiereYear": 2015,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Hip-hop",
+    "characters": [
+      { "id": "hamilton", "name": "Alexander Hamilton" },
+      { "id": "burr", "name": "Aaron Burr" },
+      { "id": "eliza", "name": "Eliza Hamilton" },
+      { "id": "angelica", "name": "Angelica Schuyler" }
+    ],
+    "synopsis": "The life of American Founding Father Alexander Hamilton, told through hip-hop and R&B.",
+    "composers": ["p-lin-manuel-miranda"]
+  },
+  {
+    "id": "the-lion-king",
+    "title": "The Lion King",
+    "originalLanguage": "en",
+    "premiereYear": 1997,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      { "id": "simba", "name": "Simba" },
+      { "id": "nala", "name": "Nala" },
+      { "id": "scar", "name": "Scar" },
+      { "id": "mufasa", "name": "Mufasa" }
+    ],
+    "synopsis": "Disney's animated epic brought to life with puppetry, African rhythms, and Elton John's score.",
+    "composers": ["p-elton-john", "p-tim-rice"]
+  },
+  {
+    "id": "chicago",
+    "title": "Chicago",
+    "originalLanguage": "en",
+    "premiereYear": 1975,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Jazz",
+    "characters": [
+      { "id": "roxie", "name": "Roxie Hart" },
+      { "id": "velma", "name": "Velma Kelly" },
+      { "id": "billy", "name": "Billy Flynn" },
+      { "id": "mama", "name": "Mama Morton" }
+    ],
+    "synopsis": "Two murderesses vie for fame on the Jazz Age vaudeville stage while awaiting trial.",
+    "composers": ["p-john-kander", "p-fred-ebb"]
+  },
+  {
+    "id": "hadestown",
+    "title": "Hadestown",
+    "originalLanguage": "en",
+    "premiereYear": 2019,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Folk",
+    "characters": [
+      { "id": "orpheus", "name": "Orpheus" },
+      { "id": "eurydice", "name": "Eurydice" },
+      { "id": "hades", "name": "Hades" },
+      { "id": "persephone", "name": "Persephone" }
+    ],
+    "synopsis": "Anaïs Mitchell's folk opera retelling of the Orpheus and Eurydice myth set in a Depression-era underworld.",
+    "composers": ["p-anais-mitchell"]
+  },
+  {
+    "id": "and-juliet",
+    "title": "& Juliet",
+    "originalLanguage": "en",
+    "premiereYear": 2022,
+    "origin": "adaptation",
+    "jukebox": true,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      { "id": "juliet", "name": "Juliet" },
+      { "id": "may", "name": "May" },
+      { "id": "anne", "name": "Anne Hathaway" },
+      { "id": "francois", "name": "François Du Bois" }
+    ],
+    "synopsis": "What if Juliet didn't die? A pop-powered sequel to Romeo and Juliet built from Max Martin hits.",
+    "composers": ["p-max-martin"]
+  },
+  {
+    "id": "the-outsiders",
+    "title": "The Outsiders",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Rock",
+    "characters": [
+      { "id": "ponyboy", "name": "Ponyboy Curtis" },
+      { "id": "johnny", "name": "Johnny Cade" },
+      { "id": "dally", "name": "Dallas Winston" },
+      { "id": "soda", "name": "Sodapop Curtis" }
+    ],
+    "synopsis": "S.E. Hinton's novel of greasers and Socs, adapted for Broadway with a soaring rock score.",
+    "composers": ["p-j-taylor-moore"]
+  },
+  {
+    "id": "suffs",
+    "title": "Suffs",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Historical",
+    "characters": [
+      { "id": "alice", "name": "Alice Paul" },
+      { "id": "carrie", "name": "Carrie Chapman Catt" },
+      { "id": "ida", "name": "Ida B. Wells" },
+      { "id": "lucy", "name": "Lucy Burns" }
+    ],
+    "synopsis": "The fight for women's suffrage in America, told through Shaina Taub's score and book.",
+    "composers": ["p-shaina-taub"]
+  },
+  {
+    "id": "death-becomes-her",
+    "title": "Death Becomes Her",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Comedy",
+    "characters": [
+      { "id": "madeline", "name": "Madeline Ashton" },
+      { "id": "helen", "name": "Helen Sharp" },
+      { "id": "ernest", "name": "Ernest Munk" }
+    ],
+    "synopsis": "The campy 1992 film about rival actresses and immortality, reborn as a Broadway musical comedy.",
+    "composers": ["p-chris-tin", "p-nell-benjamin"]
+  },
+  {
+    "id": "moulin-rouge",
+    "title": "Moulin Rouge! The Musical",
+    "originalLanguage": "en",
+    "premiereYear": 2019,
+    "origin": "adaptation",
+    "jukebox": true,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      { "id": "christian", "name": "Christian" },
+      { "id": "satine", "name": "Satine" },
+      { "id": "duke", "name": "The Duke" },
+      { "id": "zidler", "name": "Harold Zidler" }
+    ],
+    "synopsis": "Baz Luhrmann's Parisian love story reimagined as a jukebox musical of pop anthems.",
+    "composers": ["p-elton-john"]
+  }
+]

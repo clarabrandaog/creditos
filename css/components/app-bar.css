@@ -1,0 +1,6 @@
+/* AppBar (static markup in index.html) */
+.app-bar { display: flex; justify-content: space-between; align-items: center; min-height: var(--touch); }
+.app-bar__name { font-weight: var(--w-black); font-stretch: var(--wdth-wide); text-decoration: none; }
+.app-bar__tag { margin-left: auto; font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); }
+/* The home page has the hero, so the name only shows on the other pages */
+.shell:has(.view--home) .app-bar__name { display: none; }

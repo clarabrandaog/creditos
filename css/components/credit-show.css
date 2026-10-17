@@ -1,0 +1,8 @@
+/* CreditShow: one show on a profile, its roles, then a smaller ProductionBlock per run */
+.credit-show { margin-top: var(--space-12); padding-top: var(--space-4); border-top: var(--line) solid var(--ink); }
+.credit-show__title { margin: 0; font-size: min(var(--display-stub), 9vw); font-weight: var(--w-black); font-stretch: var(--wdth-wide); line-height: .95; text-transform: uppercase; }
+.credit-show__title a { text-decoration: none; }
+@media (hover: hover) { .credit-show__title a:hover { text-decoration: underline; text-decoration-color: var(--pink); text-decoration-thickness: var(--line); } }
+.credit-show__roles { margin: var(--space-2) 0 0; font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); text-transform: lowercase; }
+.credit-show .production { margin-top: var(--space-6); }
+.credit-show .production__title { font-size: var(--display-name); }

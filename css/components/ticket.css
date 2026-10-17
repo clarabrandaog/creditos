@@ -1,0 +1,94 @@
+/* Ticket: the stub for one performance. Add .ticket--torn to play the tear. */
+.ticket {
+  --tab-max: 300px;             /* tall enough for both hold buttons */
+  position: relative;
+  border: var(--line) solid var(--ink);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+}
+.ticket__top { position: relative; overflow: hidden; padding: var(--space-4) var(--space-4) var(--space-6); }
+.ticket__venue { font-size: var(--text-sm); font-stretch: var(--wdth-narrow); }
+
+/* Title: one line per word group. Sizes come from JS (lib/title.js) so each line fills the width. */
+.ticket__title { container-type: inline-size; margin: var(--space-4) 0; font-weight: var(--w-black); text-transform: uppercase; }
+.ticket__title-line { line-height: .9; white-space: nowrap; }
+.ticket__title-line--wide { font-stretch: var(--wdth-wide); }
+.ticket__title-line--narrow { font-stretch: var(--wdth-condensed); }
+
+.ticket__meta { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2) var(--space-4); margin: 0; }
+.ticket__meta dt { font-size: var(--text-xs); font-weight: var(--w-light); }
+.ticket__meta dd { margin: 0; font-size: var(--text-md); font-weight: var(--w-bold); font-stretch: var(--wdth-narrow); }
+
+/* Perforation with a notch on each side, centred on the ticket border */
+.ticket__perf { --notch: 24px; position: relative; height: 0; margin: 0 calc(var(--line) * -1); border-top: var(--line) dashed var(--ink); }
+.ticket__perf::before, .ticket__perf::after {
+  content: "";
+  position: absolute;
+  top: calc(var(--notch) / -2 - var(--line) / 2);
+  width: var(--notch);
+  height: var(--notch);
+  border: var(--line) solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+}
+.ticket__perf::before { left: calc(var(--line) / 2 - var(--notch) / 2); }
+.ticket__perf::after { right: calc(var(--line) / 2 - var(--notch) / 2); }
+
+.ticket__tab { display: grid; gap: var(--space-2); max-height: var(--tab-max); padding: var(--space-4); overflow: hidden; transform-origin: 0 0; }
+
+/* HoldButton: the pink fill follows --p (0 to 1), set from JS while pressing */
+.hold-button {
+  --p: 0;
+  display: block;
+  width: 100%;
+  min-height: var(--control-lg);
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  font-size: var(--text-md);
+  font-weight: var(--w-black);
+  font-stretch: var(--wdth-wide);
+  border: var(--line) solid var(--ink);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--pink) calc(var(--p) * 100%), transparent calc(var(--p) * 100%));
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.hold-button__hint { display: block; margin-top: var(--space-1); font-size: var(--text-xs); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); }
+@media (hover: hover) { .hold-button:hover { border-color: var(--pink); } }
+
+.ticket__stamp {
+  position: absolute;
+  right: var(--space-4);
+  bottom: var(--space-6);
+  max-width: 70%;
+  padding: var(--space-2) var(--space-3);
+  border: 4px solid var(--pink);
+  color: var(--pink);
+  font-size: var(--display-stamp);
+  font-weight: var(--w-black);
+  font-stretch: var(--wdth-wide);
+  line-height: .95;
+  text-transform: uppercase;
+  mix-blend-mode: var(--blend);
+  opacity: 0;
+  pointer-events: none;
+  transform: rotate(-9deg);
+}
+
+/* The tear: stamp lands, tab falls away then collapses, perforation fades, bottom edge turns dashed */
+.ticket--torn { border-bottom-style: dashed; }
+.ticket--torn .ticket__tab { pointer-events: none; animation: tab-away var(--dur-tear) var(--ease-in-out) forwards; }
+.ticket--torn .ticket__perf { animation: fade-out var(--dur-base) .8s forwards; }
+.ticket--torn .ticket__stamp { animation: stamp-in 320ms var(--ease-pop) forwards; }
+@keyframes tab-away {
+  0%   { transform: none; opacity: 1; max-height: var(--tab-max); }
+  55%  { transform: translate(16px, 36px) rotate(7deg); opacity: 0; max-height: var(--tab-max); padding-top: var(--space-4); padding-bottom: var(--space-4); }
+  100% { transform: translate(16px, 36px) rotate(7deg); opacity: 0; max-height: 0; padding-top: 0; padding-bottom: 0; visibility: hidden; }
+}
+@keyframes fade-out { to { opacity: 0; } }
+@keyframes stamp-in {
+  from { opacity: 0; transform: rotate(-14deg) scale(1.9); }
+  to   { opacity: .92; transform: rotate(-9deg) scale(1); }
+}

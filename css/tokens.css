@@ -1,0 +1,66 @@
+/* DESIGN TOKENS. Change the look of the whole app from this file. */
+:root {
+  color-scheme: dark;
+
+  /* Color: 60% paper, 30% ink, 10% pink (the second riso ink) */
+  --paper: #15151c;
+  --ink: #93A4FF;
+  --pink: #FF5C9A;
+  --blend: screen;              /* overprint mode on dark paper */
+  --grain: .1;                  /* paper grain strength */
+
+  /* Spacing: 8pt grid, 4 for fine tuning */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Shape. Nested elements use a smaller radius than their parent. */
+  --radius-sm: 4px;             /* controls inside cards */
+  --radius-lg: 8px;             /* cards and the ticket */
+  --line: 3px;                  /* standard rule weight */
+  --line-thin: 1px;
+  --line-heavy: 8px;            /* the search underline */
+
+  /* Controls */
+  --touch: 44px;                /* minimum touch target */
+  --control-lg: 64px;           /* the big press-and-hold buttons */
+
+  /* Type: one family (Archivo), four widths, four weights */
+  --font: Archivo, "Helvetica Neue", Arial, sans-serif;
+  --wdth-condensed: 62%;
+  --wdth-narrow: 80%;
+  --wdth-normal: 100%;
+  --wdth-wide: 125%;
+  --w-light: 300;
+  --w-regular: 400;
+  --w-bold: 700;
+  --w-black: 900;
+  --text-xs: .75rem;            /* text scale: three sizes */
+  --text-sm: .875rem;
+  --text-md: 1rem;
+
+  /* Display type: the concrete poem. Fluid on purpose, outside the text scale. */
+  --display-hero-1: min(31vw, 215px);
+  --display-hero-2: min(38vw, 270px);
+  --display-hero-3: min(27vw, 190px);
+  --display-hero-4: min(24vw, 165px);
+  --display-input: min(15vw, 96px);
+  --display-count: min(21vw, 112px);
+  --display-stub: min(11vw, 64px);
+  --display-line: min(9.5vw, 54px);
+  --display-name: clamp(1.25rem, 6vw, 1.875rem);
+  --display-stamp: 1.5rem;
+
+  /* Motion */
+  --ease-out: cubic-bezier(.2, .8, .2, 1);
+  --ease-in-out: cubic-bezier(.5, 0, .2, 1);
+  --ease-pop: cubic-bezier(.2, 1.6, .4, 1);
+  --dur-base: 300ms;
+  --dur-slow: 700ms;
+  --dur-tear: 1100ms;
+}

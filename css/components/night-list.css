@@ -1,0 +1,10 @@
+/* NightList: one row per performance, each a link to its stub */
+.night-list { margin: 0; padding: 0; list-style: none; border-top: var(--line) solid var(--ink); }
+.night-list__item { border-bottom: var(--line-thin) solid var(--ink); }
+.night-list__link { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: var(--space-1) var(--space-3); min-height: var(--touch); padding: var(--space-3) 0; text-decoration: none; }
+.night-list__date { justify-self: start; font-size: var(--text-md); font-weight: var(--w-black); font-stretch: var(--wdth-wide); text-transform: uppercase; }
+.night-list__time { font-size: var(--text-sm); font-weight: var(--w-light); font-stretch: var(--wdth-narrow); text-align: right; }
+.night-list__detail { grid-column: 1 / -1; font-size: var(--text-xs); font-weight: var(--w-bold); font-stretch: var(--wdth-narrow); }
+/* a change on the night: same pink marker as RowList */
+.night-list__item--changed .night-list__date { background: linear-gradient(transparent 78%, var(--pink) 78%); }
+@media (hover: hover) { .night-list__link:hover .night-list__date { text-decoration: underline; text-decoration-color: var(--pink); text-decoration-thickness: var(--line); } }
