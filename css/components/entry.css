@@ -9,6 +9,15 @@
 
 .entry-list--stubs .entry { margin-bottom: var(--space-6); padding: var(--space-4); border: var(--line) solid var(--ink); border-radius: var(--radius-lg); }
 .entry-list--stubs .entry__label { font-size: min(var(--display-stub), 12cqw); }   /* 12cqw fits a 9-letter word (HADESTOWN) */
+/* hover / keyboard focus: the stub slips out of register. A pink offset outline, a small lift and the title ghost drifting further. */
+.entry-list--stubs .entry { transition: transform var(--dur-base) var(--ease-pop), box-shadow var(--dur-base) var(--ease-out); }
+.entry-list--stubs .entry__label::after { transition: translate var(--dur-base) var(--ease-pop); }
+.entry-list--stubs .entry:has(.entry__head:focus-visible) { transform: translateY(-3px) rotate(-.6deg); box-shadow: 6px 6px 0 calc(var(--line) * -1) var(--pink); }
+.entry-list--stubs .entry:has(.entry__head:focus-visible) .entry__label::after { translate: 4px 3px; }
+@media (hover: hover) {
+  .entry-list--stubs .entry:hover { transform: translateY(-3px) rotate(-.6deg); box-shadow: 6px 6px 0 calc(var(--line) * -1) var(--pink); }
+  .entry-list--stubs .entry:hover .entry__label::after { translate: 4px 3px; }
+}
 .entry-list--lines .entry { padding: var(--space-3) 0 var(--space-4); border-top: var(--line) solid var(--ink); }
 .entry-list--lines .entry__label { font-size: min(var(--display-line), 12cqw); }
 /* compact stubs (show page): secondary to the page title, so one step down to the line size and kept to one line */
