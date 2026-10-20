@@ -10,8 +10,11 @@ Usage:
     python3 populate.py path/to/data --ibdb URL1 URL2 URL3
     python3 populate.py path/to/data --ibdb URL --yes --perfs 4
     (a URL looks like https://www.ibdb.com/broadway-production/hadestown-520711;
-     a saved .html page of it also works. --yes skips the questions,
-     --debug writes ibdb_debug.txt with what the parser read.)
+     a touring company is https://www.ibdb.com/tour-production/wicked-emerald-city-500327;
+     a saved .html page also works. --yes skips the questions, --debug writes
+     ibdb_debug.txt with what the parser read, --details adds the tour name and the
+     list of tour stops to the production.)
+    Broadway runs are saved with runType "broadway", touring companies with "touring".
 
 Menu:
     1 person       2 show        3 production       4 performance
@@ -438,7 +441,7 @@ _D = r"(?:[A-Z][a-z]{2} \d{1,2}, \d{4}|\?)"
 RANGE_RE = re.compile(rf"({_D})\s*[-–]\s*({_D}|Present)")
 ONE_DATE = re.compile(r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})")
 PERSON_HREF = re.compile(r"/broadway-cast-staff/(?:[^/?#]*-)?(\d+)")
-THEATRE_HREF = re.compile(r"/theatre/(?:[^/?#]*-)?(\d+)")
+THEATRE_HREF = re.compile(r"/(?:touring-)?theatre/(?:[^/?#]*-)?(\d+)")
 BLOCK_TAGS = {"p", "div", "li", "tr", "td", "th", "h1", "h2", "h3", "h4", "h5", "h6", "table", "tbody",
               "thead", "section", "article", "header", "footer", "ul", "ol", "br", "dd", "dt", "dl", "span", "label",
               "strong", "b"}
@@ -477,6 +480,7 @@ class _Tokens(HTMLParser):
         self.link, self.linkbuf = None, []
         self.in_h1 = self.in_title = False
         self.h1, self.title = None, ""
+        self.tour = False
 
     def flush(self):
         t = re.sub(r"\s+", " ", "".join(self.buf)).strip()
@@ -496,6 +500,8 @@ class _Tokens(HTMLParser):
             self.in_title = True
         if tag == "a":
             href = dict(attrs).get("href") or ""
+            if "/touring-theatre/" in href or "/tour-production/" in href:
+                self.tour = True
             m = PERSON_HREF.search(href)
             kind = "p" if m else None
             if not m:
@@ -635,11 +641,38 @@ def parse_ibdb(html):
     tk.feed(html)
     tk.flush()
     page_title = re.split(r"\s[\u2013\u2014\-]\s|\s\|\s", tk.title.strip())[0].strip()
-    return parse_tokens(tk.tokens, page_title or tk.h1 or None)
+    return parse_tokens(tk.tokens, page_title or tk.h1 or None, tk.tour)
 
 
-def parse_tokens(tokens, title):
-    out = {
+US_STATES = set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split())
+CA_PROVINCES = set("AB BC MB NB NL NS NT NU ON PE QC SK YT".split())
+
+
+def _tour_stops(tokens):
+    """Tour stops: a date range, a (touring) theatre link and 'City, ST', in that order."""
+    stops = []
+    for i in range(len(tokens) - 2):
+        a, b, c = tokens[i], tokens[i + 1], tokens[i + 2]
+        if a[0] == "t" and b[0] == "th" and c[0] == "t":
+            m = RANGE_RE.fullmatch(a[1].strip())
+            cm = re.fullmatch(r"(.+?),\s*([A-Za-z]{2,3})", c[1].strip())
+            if m and cm:
+                st = cm.group(2).upper()
+                country = "CA" if st in CA_PROVINCES else ("US" if st in US_STATES else "")
+                stops.append({"from": None if m.group(1) == "?" else d_iso(m.group(1)),
+                              "to": None if m.group(2) in ("?", "Present") else d_iso(m.group(2)),
+                              "venue": b[1], "city": cm.group(1).strip(), "state": st, "country": country})
+    return sorted(stops, key=lambda x: x["from"] or "")
+
+
+def parse_tokens(tokens, title, tour=False):
+    out = {"tour": tour,
+           "tour_name": next((m.group(1).strip() for t in tokens[:60] if t[0] == "t"
+                              for m in [re.match(r"^Tour:\s*(.+)$", t[1])] if m), None),
+           "stops": _tour_stops(tokens)}
+    if out["stops"]:
+        out["tour"] = True
+    out.update({
         "title": title,
         "opening": d_iso(_field(tokens, "Opening Date")),
         "closing": d_iso(_field(tokens, "Closing Date")),
@@ -649,7 +682,7 @@ def parse_tokens(tokens, title):
         "category": next((t[1] for t in tokens[:60] if t[0] == "t" and re.search(r"(Original|Revival)", t[1])
                           and len(t[1]) < 60), None),
         "cast": [], "staff": [], "composers": [],
-    }
+    })
     pv = _field(tokens, "Previews")
     if pv and re.match(r"\d+", pv.replace(",", "")):
         out["previews"] = int(re.match(r"\d+", pv.replace(",", "")).group(0))
@@ -771,7 +804,7 @@ def pick_dates(dates, k):
     return [dates[round(i * (len(dates) - 1) / (k - 1))] for i in range(k)]
 
 
-def import_ibdb(store, src, auto=False, n_perfs=4, debug=False):
+def import_ibdb(store, src, auto=False, n_perfs=4, debug=False, details=False):
     html = fetch_source(src)
     if html is None:
         return False
@@ -792,14 +825,22 @@ def import_ibdb(store, src, auto=False, n_perfs=4, debug=False):
     if not auto:
         title = ask("Title", title)
     opening = parsed["opening"]
-    first_prev = parsed["first_preview"] or opening
+    first_prev = parsed["first_preview"]
+    is_tour = parsed["tour"] or "/tour-production/" in src
+    stops = parsed["stops"]
     today = date.today().isoformat()
 
     opening_rows = [r for r in parsed["cast"] if r["start"] is None or r["start"] <= opening]
     changes_rows = [r for r in parsed["cast"] if r["start"] and r["start"] > opening and r["start"] <= today]
 
-    print(f"\n  {title}: opened {opening}, closing {parsed['closing'] or 'still running'}, "
-          f"first preview {parsed['first_preview']}, {parsed['previews']} previews, at {parsed['venue']}")
+    if is_tour:
+        first_stop = stops[0] if stops else None
+        print(f"\n  {title}{' (tour: ' + parsed['tour_name'] + ')' if parsed['tour_name'] else ''}: "
+              f"{opening} to {parsed['closing'] or 'still running'}, {len(stops)} tour stops"
+              + (f", first stop {first_stop['venue']}, {first_stop['city']}" if first_stop else ""))
+    else:
+        print(f"\n  {title}: opened {opening}, closing {parsed['closing'] or 'still running'}, "
+              f"first preview {parsed['first_preview']}, {parsed['previews']} previews, at {parsed['venue']}")
     print(f"  {len(opening_rows)} opening-night cast rows, {len(changes_rows)} later replacements, "
           f"{len(parsed['staff'])} crew rows, composers: {', '.join(c[0] for c in parsed['composers']) or 'none found'}")
     if parsed["category"]:
@@ -852,23 +893,41 @@ def import_ibdb(store, src, auto=False, n_perfs=4, debug=False):
     if show is not None:
         show["characters"] = chars
 
-    production = {"id": prod_id, "show": show_id, "number": n_existing + 1, "runType": "resident",
-                  "language": "en", "venue": parsed["venue"] or "", "city": "New York", "country": "US",
+    if is_tour:
+        venue, city, country = ("", "", "US")
+        if stops:
+            venue, city, country = stops[0]["venue"], stops[0]["city"], stops[0]["country"] or "US"
+        elif parsed["venue"]:
+            venue = parsed["venue"]
+    else:
+        venue, city, country = parsed["venue"] or "", "New York", "US"
+    production = {"id": prod_id, "show": show_id, "number": n_existing + 1,
+                  "runType": "touring" if is_tour else "broadway",
+                  "language": "en", "venue": venue, "city": city, "country": country,
                   "opening": opening, "closing": parsed["closing"], "roster": roster}
+    if details:
+        if parsed["tour_name"]:
+            production["name"] = parsed["tour_name"]
+        if is_tour:
+            production["stops"] = [{k: v for k, v in st.items()} for st in stops]
 
     # Performances: first preview, opening night, then replacement dates spread across the run.
     perfs = []
-    if n_perfs >= 1:
+    if first_prev and n_perfs >= 1:
         perfs.append({"id": f"{prod_id}-1", "production": prod_id, "number": 1, "date": first_prev,
                       "time": None, "preview": True, "matinee": None, "changes": []})
-    if n_perfs >= 2:
-        n_open = (parsed["previews"] or 0) + 1
-        perfs.append({"id": f"{prod_id}-{n_open}", "production": prod_id, "number": n_open, "date": opening,
-                      "time": None, "preview": False, "matinee": None, "changes": []})
+    if n_perfs >= len(perfs) + 1:
+        if parsed["previews"] is not None and first_prev:
+            n_open = parsed["previews"] + 1
+        else:
+            n_open = None  # no preview count on the page (tours), so the number is unknown
+        perfs.append({"id": f"{prod_id}-{n_open if n_open else opening}", "production": prod_id,
+                      "number": n_open, "date": opening, "time": None, "preview": False,
+                      "matinee": None, "changes": []})
     by_date = {}
     for r in changes_rows:
         by_date.setdefault(r["start"], []).append(r)
-    for d in pick_dates(sorted(by_date), n_perfs - 2):
+    for d in pick_dates(sorted(by_date), n_perfs - len(perfs)):
         changes = []
         for r in by_date[d]:
             same_role = [x for x in parsed["cast"] if fold(x["role"]) == fold(r["role"]) and x["ibdb"] != r["ibdb"]
@@ -900,7 +959,8 @@ def import_ibdb(store, src, auto=False, n_perfs=4, debug=False):
 
 
 def cmd_ibdb(store):
-    print("  Paste an IBDB production URL (https://www.ibdb.com/broadway-production/...)")
+    print("  Paste an IBDB production URL (https://www.ibdb.com/broadway-production/... or")
+    print("  https://www.ibdb.com/tour-production/... for a touring company)")
     print("  or the path of a saved .html page. Blank line finishes.")
     while True:
         src = ask("Source", required=False)
@@ -929,6 +989,7 @@ def main():
     args = sys.argv[1:]
     auto = "--yes" in args
     debug = "--debug" in args
+    details = "--details" in args
     n_perfs = 4
     if "--perfs" in args:
         n_perfs = int(args[args.index("--perfs") + 1])
@@ -953,7 +1014,7 @@ def main():
         for src in sources:
             print(f"\n== {src}")
             try:
-                import_ibdb(store, src, auto=auto, n_perfs=n_perfs, debug=debug)
+                import_ibdb(store, src, auto=auto, n_perfs=n_perfs, debug=debug, details=details)
             except KeyboardInterrupt:
                 print("\n  cancelled")
         print("Done.")

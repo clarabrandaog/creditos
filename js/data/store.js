@@ -16,8 +16,10 @@ export async function loadData(fetchFn = fetch) {
   return { shows, productions, performances, people };
 }
 
-// How a production run is named everywhere: its run type ("broadway", "touring"), or its number if it has none.
-export const productionName = pr => pr.runType ?? `production ${pr.number}`;
+// How a production run is named everywhere: "broadway" for a Broadway run, otherwise its city
+// ("Chicago" for a tour). Falls back to the run type, then its number, when those are missing.
+export const productionName = pr =>
+  pr.runType === "broadway" ? pr.runType : pr.city || pr.runType || `production ${pr.number}`;
 
 // Wraps the four arrays with lookups. Everything else in the app asks the store, never the raw arrays.
 export function createStore({ shows, productions, performances, people }) {

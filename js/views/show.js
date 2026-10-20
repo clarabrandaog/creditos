@@ -16,7 +16,6 @@ import { PageActions } from "../components/page-actions.js";
 import { BackButton } from "../components/back-button.js";
 import { FinePrint } from "../components/fine-print.js";
 
-const RECENT = 3;   // nights shown per run before the "older nights" toggle
 const capitalize = s => (s ? s[0].toUpperCase() + s.slice(1) : s);
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 
@@ -40,7 +39,7 @@ function latestCard(show, title, { production, performance }) {
   });
 }
 
-// One run: where and when, its counts, the most recent nights, older nights and the company behind toggles.
+// One run: where and when, its counts, every night, then the company behind a toggle.
 function runBlock(store, show, title, { production, nights }) {
   const company = sortByName(production.roster.map(entry => ({
     name: store.personName(entry.person), role: entry.role, href: links.person(entry.person),
@@ -54,8 +53,6 @@ function runBlock(store, show, title, { production, nights }) {
       details: [...nightTags(performance, production), changes && `${plural(changes, "change")} to the company`].filter(Boolean),
     };
   });
-  const recent = rows.slice(0, RECENT);
-  const older = rows.slice(RECENT);
 
   return ProductionBlock({
     production,
@@ -63,12 +60,7 @@ function runBlock(store, show, title, { production, nights }) {
     level: 3,
     meta: [plural(nights.length, "night"), `company of ${company.length}`, production.language?.toUpperCase()].filter(Boolean),
     children: [
-      nights.length ? NightList(recent) : h("p", { class: "production__empty" }, "No nights logged for this run yet."),
-      older.length > 0 && Disclosure({
-        openLabel: `Older nights (${older.length})`,
-        closeLabel: "Hide older nights",
-        content: NightList(older),
-      }),
+      nights.length ? NightList(rows) : h("p", { class: "production__empty" }, "No nights logged for this run yet."),
       company.length > 0 && Disclosure({
         openLabel: `Company of this run (${company.length})`,
         closeLabel: "Hide the company",
@@ -79,7 +71,7 @@ function runBlock(store, show, title, { production, nights }) {
 }
 
 // Show page: an aggregate of the piece. Its facts and totals, the latest night of every run
-// (each opens its stub), then every production with its recent nights, older nights and company.
+// (each opens its stub), then every production with its nights and company.
 export function ShowView(store, show) {
   const { runs, latestNights, nightCount, peopleCount } = showOverview(store, show.id);
   const titles = runTitles(runs);

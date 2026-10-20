@@ -5,6 +5,7 @@ clean.py: remove the junk rows that early IBDB imports left in the datasets.
 Usage:
     python3 clean.py path/to/data            # dry run, only reports what it would remove
     python3 clean.py path/to/data --apply    # writes the changes (keeps .bak copies)
+    python3 clean.py path/to/data --fix-runtype --apply   # also change runType "resident" to "broadway"
 
 What it removes:
   - roster rows whose role is "(" or ends with "(" (a theatre line read as a cast row),
@@ -42,6 +43,7 @@ def load(folder, name):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     apply = "--apply" in sys.argv
+    fix_runtype = "--fix-runtype" in sys.argv
     folder = Path(args[0] if args else ".")
     data = {n: load(folder, n) for n in FILES}
     for n in FILES:
@@ -69,6 +71,14 @@ def main():
                           + (", ..." if len(drop) > 4 else "") + ")")
             prod["roster"] = keep
         # a roster row whose character no longer exists in the show
+    if fix_runtype:
+        fixed = [p["id"] for p in data["productions"] if p.get("runType") == "resident"]
+        for p in data["productions"]:
+            if p.get("runType") == "resident":
+                p["runType"] = "broadway"
+        if fixed:
+            report.append(f"runType changed from resident to broadway on {len(fixed)} productions ({', '.join(fixed[:6])}"
+                          + (", ..." if len(fixed) > 6 else "") + ")")
     # performances: junk changes
     kept_perfs, removed_perfs = [], []
     for perf in data["performances"]:

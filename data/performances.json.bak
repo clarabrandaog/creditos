@@ -1075,8 +1075,162 @@
     ]
   },
   {
-    "id": "wicked-p3-1",
-    "production": "wicked-p3",
+    "id": "the-lost-boys-p1-1",
+    "production": "the-lost-boys-p1",
+    "number": 1,
+    "date": "2026-03-27",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-lost-boys-p1-31",
+    "production": "the-lost-boys-p1",
+    "number": 31,
+    "date": "2026-04-26",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-1",
+    "production": "the-notebook-p1",
+    "number": 1,
+    "date": "2024-02-10",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-36",
+    "production": "the-notebook-p1",
+    "number": 36,
+    "date": "2024-03-14",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-2024-10-08",
+    "production": "the-notebook-p1",
+    "number": null,
+    "date": "2024-10-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Younger Noah",
+        "person": "p-benji-santiago",
+        "replaces": "p-john-cardoza",
+        "type": "replacement"
+      },
+      {
+        "role": "Younger Allie",
+        "person": "p-anna-zavelson",
+        "replaces": "p-jordan-tyson",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-notebook-p1-2024-10-22",
+    "production": "the-notebook-p1",
+    "number": null,
+    "date": "2024-10-22",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Middle Allie",
+        "person": "p-aisha-jackson",
+        "replaces": "p-joy-woods",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "two-strangers-carry-a-cake-across-new-york-p1-1",
+    "production": "two-strangers-carry-a-cake-across-new-york-p1",
+    "number": 1,
+    "date": "2025-11-01",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "two-strangers-carry-a-cake-across-new-york-p1-22",
+    "production": "two-strangers-carry-a-cake-across-new-york-p1",
+    "number": 22,
+    "date": "2025-11-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-book-of-mormon-p2-1",
+    "production": "the-book-of-mormon-p2",
+    "number": 1,
+    "date": "2011-02-24",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-book-of-mormon-p2-29",
+    "production": "the-book-of-mormon-p2",
+    "number": 29,
+    "date": "2011-03-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-book-of-mormon-p2-2012-03-27",
+    "production": "the-book-of-mormon-p2",
+    "number": null,
+    "date": "2012-03-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Mrs. Brown",
+        "person": "p-tamika-sonja-lawrence",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-book-of-mormon-p2-2026-09-01",
+    "production": "the-book-of-mormon-p2",
+    "number": null,
+    "date": "2026-09-01",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-blake-morgan-ferris",
+        "replaces": "p-andrew-stevens-purdy",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p1-1",
+    "production": "wicked-p1",
     "number": 1,
     "date": "2003-10-08",
     "time": null,
@@ -1085,8 +1239,8 @@
     "changes": []
   },
   {
-    "id": "wicked-p3-26",
-    "production": "wicked-p3",
+    "id": "wicked-p1-26",
+    "production": "wicked-p1",
     "number": 26,
     "date": "2003-10-30",
     "time": null,
@@ -1095,8 +1249,8 @@
     "changes": []
   },
   {
-    "id": "wicked-p3-2003-11-25",
-    "production": "wicked-p3",
+    "id": "wicked-p1-2003-11-25",
+    "production": "wicked-p1",
     "number": null,
     "date": "2003-11-25",
     "time": null,
@@ -1112,8 +1266,8 @@
     ]
   },
   {
-    "id": "wicked-p3-2026-08-17",
-    "production": "wicked-p3",
+    "id": "wicked-p1-2026-08-17",
+    "production": "wicked-p1",
     "number": null,
     "date": "2026-08-17",
     "time": null,
@@ -1124,6 +1278,899 @@
         "role": "Ensemble",
         "person": "p-reagan-davidson",
         "replaces": "p-celia-hottenstein",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p1-2005-08-30",
+    "production": "wicked-p1",
+    "number": null,
+    "date": "2005-08-30",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-ben-vereen",
+        "replaces": "p-gene-weygandt",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p1-2008-11-18",
+    "production": "wicked-p1",
+    "number": null,
+    "date": "2008-11-18",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Boq",
+        "person": "p-ted-ely",
+        "replaces": "p-stanton-nash",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2-2005-03-09",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2005-03-09",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p2-2005-12-06",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2005-12-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-annaleigh-ashford",
+        "replaces": "p-katie-adams",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2-2011-04-19",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2011-04-19",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Glinda",
+        "person": "p-amanda-jane-cooper",
+        "replaces": "p-katie-rose-clarke",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2-2015-06-03",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2015-06-03",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Midwife",
+        "person": "p-erin-wilson",
+        "replaces": "p-barbara-tirrell",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3-2009-03-07",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2009-03-07",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p3-2009-12-08",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2009-12-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-don-amendolia",
+        "replaces": "p-tom-mcgowan",
+        "type": "replacement"
+      },
+      {
+        "role": "Boq",
+        "person": "p-zach-hanna",
+        "replaces": "p-ted-ely",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3-2015-12-09",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2015-12-09",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Glinda",
+        "person": "p-amanda-jane-cooper",
+        "replaces": "p-carrie-st-louis",
+        "type": "replacement"
+      },
+      {
+        "role": "Elphaba",
+        "person": "p-emily-koch",
+        "replaces": "p-alyssa-fox",
+        "type": "replacement"
+      },
+      {
+        "role": "Nessarose",
+        "person": "p-megan-masako-haley",
+        "replaces": "p-liana-hunt",
+        "type": "replacement"
+      },
+      {
+        "role": "Boq",
+        "person": "p-sam-seferian",
+        "replaces": "p-lee-slobotkin",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3-2026-09-02",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2026-09-02",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Witch's Mother",
+        "person": "p-bea-catacutan",
+        "replaces": "p-darriel-johnakin",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p4-2005-03-09",
+    "production": "wicked-p4",
+    "number": null,
+    "date": "2005-03-09",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p4-2005-12-06",
+    "production": "wicked-p4",
+    "number": null,
+    "date": "2005-12-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-annaleigh-ashford",
+        "replaces": "p-katie-adams",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p4-2011-04-19",
+    "production": "wicked-p4",
+    "number": null,
+    "date": "2011-04-19",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Glinda",
+        "person": "p-amanda-jane-cooper",
+        "replaces": "p-katie-rose-clarke",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p4-2015-06-03",
+    "production": "wicked-p4",
+    "number": null,
+    "date": "2015-06-03",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Midwife",
+        "person": "p-erin-wilson",
+        "replaces": "p-barbara-tirrell",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p5-2005-06-24",
+    "production": "wicked-p5",
+    "number": null,
+    "date": "2005-06-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p5-2005-08-30",
+    "production": "wicked-p5",
+    "number": null,
+    "date": "2005-08-30",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-ben-vereen",
+        "replaces": "p-gene-weygandt",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p5-2007-01-16",
+    "production": "wicked-p5",
+    "number": null,
+    "date": "2007-01-16",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-k-todd-freeman",
+        "replaces": "p-william-youmans",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p5-2008-11-18",
+    "production": "wicked-p5",
+    "number": null,
+    "date": "2008-11-18",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Boq",
+        "person": "p-ted-ely",
+        "replaces": "p-stanton-nash",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p6-2009-03-07",
+    "production": "wicked-p6",
+    "number": null,
+    "date": "2009-03-07",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p6-2009-12-08",
+    "production": "wicked-p6",
+    "number": null,
+    "date": "2009-12-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-don-amendolia",
+        "replaces": "p-tom-mcgowan",
+        "type": "replacement"
+      },
+      {
+        "role": "Boq",
+        "person": "p-zach-hanna",
+        "replaces": "p-ted-ely",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p6-2015-12-09",
+    "production": "wicked-p6",
+    "number": null,
+    "date": "2015-12-09",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Glinda",
+        "person": "p-amanda-jane-cooper",
+        "replaces": "p-carrie-st-louis",
+        "type": "replacement"
+      },
+      {
+        "role": "Elphaba",
+        "person": "p-emily-koch",
+        "replaces": "p-alyssa-fox",
+        "type": "replacement"
+      },
+      {
+        "role": "Nessarose",
+        "person": "p-megan-masako-haley",
+        "replaces": "p-liana-hunt",
+        "type": "replacement"
+      },
+      {
+        "role": "Boq",
+        "person": "p-sam-seferian",
+        "replaces": "p-lee-slobotkin",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p6-2026-09-02",
+    "production": "wicked-p6",
+    "number": null,
+    "date": "2026-09-02",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Witch's Mother",
+        "person": "p-bea-catacutan",
+        "replaces": "p-darriel-johnakin",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p7-2009-01-27",
+    "production": "wicked-p7",
+    "number": null,
+    "date": "2009-01-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p7-2009-03-19",
+    "production": "wicked-p7",
+    "number": null,
+    "date": "2009-03-19",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Elphaba",
+        "person": "p-vicki-noon",
+        "replaces": "p-teal-wicks",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p7-2009-12-22",
+    "production": "wicked-p7",
+    "number": null,
+    "date": "2009-12-22",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-tom-mcgowan",
+        "replaces": "p-lee-wilkof",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p7-2010-06-29",
+    "production": "wicked-p7",
+    "number": null,
+    "date": "2010-06-29",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Elphaba",
+        "person": "p-marcie-dodd",
+        "replaces": "p-eden-espinosa",
+        "type": "replacement"
+      },
+      {
+        "role": "Glinda",
+        "person": "p-alli-mauzey",
+        "replaces": "p-kendra-kassebaum",
+        "type": "replacement"
+      },
+      {
+        "role": "Fiyero",
+        "person": "p-cliffton-hall",
+        "replaces": "p-nicolas-dromard",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p8-2007-02-10",
+    "production": "wicked-p8",
+    "number": null,
+    "date": "2007-02-10",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p8-2007-12-11",
+    "production": "wicked-p8",
+    "number": null,
+    "date": "2007-12-11",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Nessarose",
+        "person": "p-marcie-dodd",
+        "replaces": "p-jenna-leigh-green",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p8-2008-05-27",
+    "production": "wicked-p8",
+    "number": null,
+    "date": "2008-05-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-david-de-vries",
+        "replaces": "p-timothy-britten-parker",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p8-2008-12-02",
+    "production": "wicked-p8",
+    "number": null,
+    "date": "2008-12-02",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-tom-flynn",
+        "replaces": "p-david-de-vries",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p9-2005-06-24",
+    "production": "wicked-p9",
+    "number": null,
+    "date": "2005-06-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p9-2005-08-30",
+    "production": "wicked-p9",
+    "number": null,
+    "date": "2005-08-30",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-ben-vereen",
+        "replaces": "p-gene-weygandt",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p9-2007-01-16",
+    "production": "wicked-p9",
+    "number": null,
+    "date": "2007-01-16",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-k-todd-freeman",
+        "replaces": "p-william-youmans",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p9-2008-11-18",
+    "production": "wicked-p9",
+    "number": null,
+    "date": "2008-11-18",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Boq",
+        "person": "p-ted-ely",
+        "replaces": "p-stanton-nash",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p3-2017-03-10",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2017-03-10",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p3-2018-01-06",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2018-01-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Eliza Hamilton",
+        "person": "p-julia-k-harriman",
+        "replaces": "p-solea-pfeiffer",
+        "type": "replacement"
+      },
+      {
+        "role": "Marquis de Lafayette",
+        "person": "p-chris-de-sean-lee",
+        "replaces": "p-jordan-donica",
+        "type": "replacement"
+      },
+      {
+        "role": "Alexander Hamilton",
+        "person": "p-austin-scott",
+        "replaces": "p-michael-luwoye",
+        "type": "replacement"
+      },
+      {
+        "role": "Angelica Schuyler",
+        "person": "p-sabrina-sloan",
+        "replaces": "p-emmy-raver-lampman",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p3-2025-07-22",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2025-07-22",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Marquis de Lafayette",
+        "person": "p-christian-magby",
+        "replaces": "p-jared-howelton",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p3-2026-10-08",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2026-10-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "King George",
+        "person": "p-noah-kieserman",
+        "replaces": "p-paul-louis-lessard",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p6-2016-09-27",
+    "production": "hamilton-p6",
+    "number": null,
+    "date": "2016-09-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p6-2017-01-17",
+    "production": "hamilton-p6",
+    "number": null,
+    "date": "2017-01-17",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Aaron Burr",
+        "person": "p-wayne-brady",
+        "replaces": "p-joshua-henry",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p6-2018-04-13",
+    "production": "hamilton-p6",
+    "number": null,
+    "date": "2018-04-13",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Eliza Hamilton",
+        "person": "p-jamila-sabares-klemm",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p6-2021-09-01",
+    "production": "hamilton-p6",
+    "number": null,
+    "date": "2021-09-01",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "James Madison",
+        "person": "p-ebrin-r-stanley",
+        "replaces": "p-wallace-smith",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p7-2018-02-06",
+    "production": "hamilton-p7",
+    "number": null,
+    "date": "2018-02-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p7-2019-08-06",
+    "production": "hamilton-p7",
+    "number": null,
+    "date": "2019-08-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "King George",
+        "person": "p-neil-haskell",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p7-2023-05-20",
+    "production": "hamilton-p7",
+    "number": null,
+    "date": "2023-05-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "James Madison",
+        "person": "p-eddie-ortega",
+        "replaces": "p-desmond-sean-ellington",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p7-2024-06-18",
+    "production": "hamilton-p7",
+    "number": null,
+    "date": "2024-06-18",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Philip Hamilton",
+        "person": "p-lucas-hinds-babcock",
+        "replaces": "p-tyler-fauntleroy",
+        "type": "replacement"
+      },
+      {
+        "role": "Doctor",
+        "person": "p-jorrel-javier",
+        "replaces": "p-nick-sanchez",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p1-1",
+    "production": "hamilton-p1",
+    "number": 1,
+    "date": "2015-07-13",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p1-27",
+    "production": "hamilton-p1",
+    "number": 27,
+    "date": "2015-08-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p1-2015-10-27",
+    "production": "hamilton-p1",
+    "number": null,
+    "date": "2015-10-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "King George",
+        "person": "p-andrew-rannells",
+        "replaces": "p-jonathan-groff",
+        "type": "replacement"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-daniel-j-watts",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p1-2026-10-06",
+    "production": "hamilton-p1",
+    "number": null,
+    "date": "2026-10-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-chibueze-ihuoma",
+        "replaces": "p-kamille-upshaw-darrington",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p3-2019-02-12",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2019-02-12",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hamilton-p3-2019-08-13",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2019-08-13",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "George Washington",
+        "person": "p-darnell-abraham",
+        "replaces": "p-isaiah-johnson",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p3-2023-07-25",
+    "production": "hamilton-p3",
+    "number": null,
+    "date": "2023-07-25",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "George Washington",
+        "person": "p-desmond-sean-ellington",
+        "replaces": "p-darnell-abraham",
         "type": "replacement"
       }
     ]

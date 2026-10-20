@@ -6,11 +6,15 @@ const newestFirst = (a, b) => (`${a.date} ${a.time}` < `${b.date} ${b.time}` ? 1
 // A role is cast when it names one of the show's characters. Everything else is crew or creative.
 export const isCastRole = (show, role) => show.characters.some(c => c.name === role);
 
-// Everything logged for one show: its productions in order, each with its nights, newest first.
+// Oldest run first, by opening date. A run with no opening date goes last. Ties fall back to the production number.
+const oldestRunFirst = (a, b) =>
+  (a.opening ?? "9999").localeCompare(b.opening ?? "9999") || a.number - b.number;
+
+// Everything logged for one show: its productions oldest first, each with its nights, newest first.
 //   [{ production, nights: [performance] }]
 export function showHistory(store, showId) {
   return store.productionsOf(showId)
-    .slice().sort((a, b) => a.number - b.number)
+    .slice().sort(oldestRunFirst)
     .map(production => ({ production, nights: store.performancesOf(production.id).slice().sort(newestFirst) }));
 }
 
