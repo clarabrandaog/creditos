@@ -1378,91 +1378,6 @@
     ]
   },
   {
-    "id": "wicked-p3-2009-03-07",
-    "production": "wicked-p3",
-    "number": null,
-    "date": "2009-03-07",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": []
-  },
-  {
-    "id": "wicked-p3-2009-12-08",
-    "production": "wicked-p3",
-    "number": null,
-    "date": "2009-12-08",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-don-amendolia",
-        "replaces": "p-tom-mcgowan",
-        "type": "replacement"
-      },
-      {
-        "role": "Boq",
-        "person": "p-zach-hanna",
-        "replaces": "p-ted-ely",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p3-2015-12-09",
-    "production": "wicked-p3",
-    "number": null,
-    "date": "2015-12-09",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Glinda",
-        "person": "p-amanda-jane-cooper",
-        "replaces": "p-carrie-st-louis",
-        "type": "replacement"
-      },
-      {
-        "role": "Elphaba",
-        "person": "p-emily-koch",
-        "replaces": "p-alyssa-fox",
-        "type": "replacement"
-      },
-      {
-        "role": "Nessarose",
-        "person": "p-megan-masako-haley",
-        "replaces": "p-liana-hunt",
-        "type": "replacement"
-      },
-      {
-        "role": "Boq",
-        "person": "p-sam-seferian",
-        "replaces": "p-lee-slobotkin",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p3-2026-09-02",
-    "production": "wicked-p3",
-    "number": null,
-    "date": "2026-09-02",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Witch's Mother",
-        "person": "p-bea-catacutan",
-        "replaces": "p-darriel-johnakin",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
     "id": "wicked-p4-2005-03-09",
     "production": "wicked-p4",
     "number": null,
@@ -1519,67 +1434,6 @@
         "role": "Midwife",
         "person": "p-erin-wilson",
         "replaces": "p-barbara-tirrell",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p5-2005-06-24",
-    "production": "wicked-p5",
-    "number": null,
-    "date": "2005-06-24",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": []
-  },
-  {
-    "id": "wicked-p5-2005-08-30",
-    "production": "wicked-p5",
-    "number": null,
-    "date": "2005-08-30",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-ben-vereen",
-        "replaces": "p-gene-weygandt",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p5-2007-01-16",
-    "production": "wicked-p5",
-    "number": null,
-    "date": "2007-01-16",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Doctor Dillamond",
-        "person": "p-k-todd-freeman",
-        "replaces": "p-william-youmans",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p5-2008-11-18",
-    "production": "wicked-p5",
-    "number": null,
-    "date": "2008-11-18",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Boq",
-        "person": "p-ted-ely",
-        "replaces": "p-stanton-nash",
         "type": "replacement"
       }
     ]
@@ -1799,67 +1653,6 @@
         "role": "Doctor Dillamond",
         "person": "p-tom-flynn",
         "replaces": "p-david-de-vries",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p9-2005-06-24",
-    "production": "wicked-p9",
-    "number": null,
-    "date": "2005-06-24",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": []
-  },
-  {
-    "id": "wicked-p9-2005-08-30",
-    "production": "wicked-p9",
-    "number": null,
-    "date": "2005-08-30",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-ben-vereen",
-        "replaces": "p-gene-weygandt",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p9-2007-01-16",
-    "production": "wicked-p9",
-    "number": null,
-    "date": "2007-01-16",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Doctor Dillamond",
-        "person": "p-k-todd-freeman",
-        "replaces": "p-william-youmans",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p9-2008-11-18",
-    "production": "wicked-p9",
-    "number": null,
-    "date": "2008-11-18",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Boq",
-        "person": "p-ted-ely",
-        "replaces": "p-stanton-nash",
         "type": "replacement"
       }
     ]
@@ -2184,5 +1977,66 @@
     "preview": false,
     "matinee": null,
     "changes": []
+  },
+  {
+    "id": "wicked-p2-2005-06-24",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2005-06-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p2-2005-08-30",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2005-08-30",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-ben-vereen",
+        "replaces": "p-gene-weygandt",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2-2007-01-16",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2007-01-16",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-k-todd-freeman",
+        "replaces": "p-william-youmans",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2-2008-11-18",
+    "production": "wicked-p2",
+    "number": null,
+    "date": "2008-11-18",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Boq",
+        "person": "p-ted-ely",
+        "replaces": "p-stanton-nash",
+        "type": "replacement"
+      }
+    ]
   }
 ]

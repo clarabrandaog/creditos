@@ -1323,6 +1323,308 @@
       {
         "role": "Assistant dance captain",
         "person": "p-philip-dean-lightstone"
+      },
+      {
+        "role": "Elphaba",
+        "person": "p-ana-gasteyer",
+        "character": "elphaba"
+      },
+      {
+        "role": "Glinda",
+        "person": "p-kate-reinders",
+        "character": "glinda"
+      },
+      {
+        "role": "Fiyero",
+        "person": "p-kristoffer-cusick",
+        "character": "fiyero"
+      },
+      {
+        "role": "Nessarose",
+        "person": "p-heidi-kettenring",
+        "character": "nessarose"
+      },
+      {
+        "role": "Boq",
+        "person": "p-telly-leung",
+        "character": "boq"
+      },
+      {
+        "role": "Madame Morrible",
+        "person": "p-rondi-reed",
+        "character": "madame-morrible"
+      },
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-steven-skybell",
+        "character": "doctor-dillamond"
+      },
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-gene-weygandt",
+        "character": "the-wonderful-wizard-of-oz"
+      },
+      {
+        "role": "Witch's Mother",
+        "person": "p-christina-bailey",
+        "character": "witch-s-mother"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-christina-bailey"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-dioni-michelle-collins"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-courtney-corey"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-delandis"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-jeff-dumas"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-sarah-jane-everman"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kristina-fernandez"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-adam-fleming"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-sara-jean-ford"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-jay-galmin"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-colleen-hieber"
+      },
+      {
+        "role": "Chistery",
+        "person": "p-mahi-kekumu",
+        "character": "chistery"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-mahi-kekumu"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-barrett-martin"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-vanessa-mcmahan"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-ashley-robinson"
+      },
+      {
+        "role": "Midwife",
+        "person": "p-kathy-santen",
+        "character": "midwife"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kathy-santen"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-ryan-silverman"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-meredith-akins"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-brad-bass"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-nicholas-belton"
+      },
+      {
+        "role": "Witch's Mother",
+        "person": "p-kerry-blanchard",
+        "character": "witch-s-mother"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kerry-blanchard"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-cristin-boyle"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-anne-brummel"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-justin-caster"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-steve-james-ewing"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kate-fahrner"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-ryan-patrick-farrell"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-marisa-field"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-timothy-a-fitz-gerald"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-james-ginnever"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-charles-hagerty"
+      },
+      {
+        "role": "Chistery",
+        "person": "p-gregory-haney",
+        "character": "chistery"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-gregory-haney"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-jill-hayman"
+      },
+      {
+        "role": "Midwife",
+        "person": "p-jill-hayman",
+        "character": "midwife"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-john-anthony-hoffman"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-jeremy-kocal"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-lauren-linville"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-michelle-london"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kate-loprest"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-patrick-mccollum"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-jan-neuberger"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-vicki-noon"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-casey-quinn"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-mindy-reid"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-alexander-selma"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-brad-simanski"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-dan-yelle-williamson"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-kevin-samuel-yee"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-neka-zang"
+      },
+      {
+        "role": "Music director",
+        "person": "p-colin-welford"
+      },
+      {
+        "role": "Assistant director",
+        "person": "p-paul-dobie"
+      },
+      {
+        "role": "Associate costume designer",
+        "person": "p-michael-sharpe"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-kathleen-e-purvis"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-matthew-leiner"
+      },
+      {
+        "role": "Assistant stage manager",
+        "person": "p-sharon-l-wilson"
+      },
+      {
+        "role": "Dance captain",
+        "person": "p-jason-davies"
+      },
+      {
+        "role": "Assistant dance captain",
+        "person": "p-kristina-fernandez"
+      },
+      {
+        "role": "Dance captain",
+        "person": "p-alicia-l-albright"
+      },
+      {
+        "role": "Assistant dance captain",
+        "person": "p-jeremy-duvall"
       }
     ],
     "closing": null
@@ -5273,940 +5575,6 @@
     ]
   },
   {
-    "id": "wicked-p3",
-    "show": "wicked",
-    "number": 3,
-    "runType": "touring",
-    "language": "en",
-    "venue": "Barbara B. Mann Performing Arts Hall",
-    "city": "Fort Myers",
-    "country": "US",
-    "opening": "2009-03-07",
-    "closing": null,
-    "roster": [
-      {
-        "role": "Elphaba",
-        "person": "p-marcie-dodd",
-        "character": "elphaba"
-      },
-      {
-        "role": "Glinda",
-        "person": "p-helene-yorke",
-        "character": "glinda"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-marilyn-caskey",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "Doctor Dillamond",
-        "person": "p-david-de-vries",
-        "character": "doctor-dillamond"
-      },
-      {
-        "role": "Fiyero",
-        "person": "p-colin-donnell",
-        "character": "fiyero"
-      },
-      {
-        "role": "Boq",
-        "person": "p-ted-ely",
-        "character": "boq"
-      },
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-tom-mcgowan",
-        "character": "the-wonderful-wizard-of-oz"
-      },
-      {
-        "role": "Nessarose",
-        "person": "p-kristine-reese",
-        "character": "nessarose"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-meredith-akins"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-kerry-blanchard",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anne-brummel"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeremy-duvall"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-patrick-farrell"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-jenn-furman",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-charles-hagerty"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-todd-hanebrink"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-gregory-haney",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-gregory-haney"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-zach-hanna"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lauren-linville"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-michelle-london"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-nathan-peck"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-casey-quinn"
-      },
-      {
-        "role": "Witch's Father",
-        "person": "p-don-richard",
-        "character": "witch-s-father"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-libby-servais"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-daniel-torres"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-natalie-weiss"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-erin-wilson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kevin-samuel-yee"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jennifer-mariela-bermeo"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sean-burns"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-olivia-dei-cicchi"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-matt-densky"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ben-diamond"
-      },
-      {
-        "role": "Oct 2025 - ?",
-        "person": "p-ben-diamond",
-        "character": "oct-2025"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-rose-iannacone"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-konnor-kelly",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-donivyn-riley"
-      },
-      {
-        "role": "Witch's Father",
-        "person": "p-wayne-schroder",
-        "character": "witch-s-father"
-      },
-      {
-        "role": "Ozian Official",
-        "person": "p-wayne-schroder",
-        "character": "ozian-official"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brett-stoelker"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-justin-wirick"
-      },
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-fred-applegate",
-        "character": "the-wonderful-wizard-of-oz"
-      },
-      {
-        "role": "Nov 22, 2016 -",
-        "person": "p-fred-applegate",
-        "character": "nov-22-2016"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-natalie-venetia-belcon",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "Fiyero",
-        "person": "p-michael-campayno",
-        "character": "fiyero"
-      },
-      {
-        "role": "Nessarose",
-        "person": "p-mili-diaz",
-        "character": "nessarose"
-      },
-      {
-        "role": "Boq",
-        "person": "p-cole-doman",
-        "character": "boq"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-kathy-fitzgerald",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-jody-gelb",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-jason-graae",
-        "character": "the-wonderful-wizard-of-oz"
-      },
-      {
-        "role": "Boq",
-        "person": "p-dj-plunkett",
-        "character": "boq"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-alexia-acebo",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-alexia-acebo"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-allison-bailey"
-      },
-      {
-        "role": "Witch's Father",
-        "person": "p-keith-a-bearden",
-        "character": "witch-s-father"
-      },
-      {
-        "role": "Ozian Official",
-        "person": "p-keith-a-bearden",
-        "character": "ozian-official"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-shayla-beck"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kerry-blanchard"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-giovanni-bonaventura"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-remmie-bourgeois"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kyle-brown"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-nick-burrage"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jillian-butler"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lauren-cannon"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lindsey-brett-carothers"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jordan-casanova"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kennedy-caughell"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-autumn-crockett-cooper"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ali-deucher"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-hayley-ann-dorling"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-michael-drolet"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-marie-eife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anna-eilinsfeld"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kelli-erdmann"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-aydin-eyikan"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-samantha-farrow"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kelly-d-felthouse"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sarah-anne-fernandez"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anthony-festa"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-timothy-a-fitz-gerald"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-natalie-fotopoulos"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-kc-fredericks",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kc-fredericks"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sara-gonzales"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sam-gravitte"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-linda-griffin",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-linda-griffin"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kali-grinder"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-chelsea-cree-groen"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-garett-hawe"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-zach-hensler"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-courtney-iventosch"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-chris-jarosz"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kody-jauron"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jillian-kates"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-john-krause"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-marina-lazzaretto"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lauren-leach"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-melissa-legaspi"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-colin-lemoine"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sam-lips"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jordan-litz"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lisa-livesay"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-megan-loomis"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-mattie-love"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-mac"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-chase-madigan",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-tiffany-rae-mallari"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-michael-mccorry-rose"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lesley-mckinnell"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-matt-meigs"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-hayden-milanes"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-marissa-miller"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-dashi-mitchell",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brittany-marcell-monachino"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jennafer-newberry"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brayden-newby"
-      },
-      {
-        "role": "Sep 2025 - Jun 22, 2026",
-        "person": "p-brayden-newby",
-        "character": "sep-2025-jun-22-2026"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-alicia-newcom"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-allsun-o-malley"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-madison-claire-parks"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-robert-pendilla"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-olivia-polci"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-rachel-potter"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-laura-pugliese"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jackie-raye"
-      },
-      {
-        "role": "circa. Jun 2026 - ?",
-        "person": "p-jackie-raye",
-        "character": "circa-jun-2026"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-rebecca-gans-reavis"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-andy-richardson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kat-rodriguez"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-tory-ross",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-tory-ross"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anthony-sagaria"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anthony-santos"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-derek-schiesel"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-wayne-schroder"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-paul-schwensen"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeff-sears"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jonathan-shew"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-dj-smart",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brandon-stonestreet"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-ben-susak",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ben-susak"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeremy-thompson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-clay-thomson"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-mitchell-tobin",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-madeline-trumble"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-maggie-van-wieringen"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-brion-marquis-watson",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-nyla-watson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-aidan-wharton"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-amy-yakima"
-      },
-      {
-        "role": "Music director",
-        "person": "p-adam-souza"
-      },
-      {
-        "role": "Orchestrator",
-        "person": "p-william-david-brohn"
-      },
-      {
-        "role": "Director",
-        "person": "p-joe-mantello"
-      },
-      {
-        "role": "Associate director",
-        "person": "p-lisa-leguillou"
-      },
-      {
-        "role": "Associate choreographer",
-        "person": "p-corinne-mcfadden-herrera"
-      },
-      {
-        "role": "Assistant director",
-        "person": "p-paul-dobie"
-      },
-      {
-        "role": "Scenic designer",
-        "person": "p-eugene-lee"
-      },
-      {
-        "role": "Costume designer",
-        "person": "p-susan-hilferty"
-      },
-      {
-        "role": "Lighting designer",
-        "person": "p-kenneth-posner"
-      },
-      {
-        "role": "Sound designer",
-        "person": "p-tony-meola"
-      },
-      {
-        "role": "Projection designer",
-        "person": "p-elaine-j-mccarthy"
-      },
-      {
-        "role": "Hair and wig designer",
-        "person": "p-tom-watson"
-      },
-      {
-        "role": "Make-up designer",
-        "person": "p-joe-dulude-ii"
-      },
-      {
-        "role": "Associate scenic designer",
-        "person": "p-edward-pierce"
-      },
-      {
-        "role": "Associate costume designer",
-        "person": "p-amanda-whidden"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-karen-spahn"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-warren-flynn"
-      },
-      {
-        "role": "Associate sound designer",
-        "person": "p-kai-harada"
-      },
-      {
-        "role": "Associate projection designer",
-        "person": "p-shawn-boyle"
-      },
-      {
-        "role": "Assistant scenic designer",
-        "person": "p-nick-francone"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-tricia-barsamian"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amy-c-bradshaw"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-cathy-small"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-mary-wilson"
-      },
-      {
-        "role": "Assistant lighting designer",
-        "person": "p-joel-shier"
-      },
-      {
-        "role": "Assistant sound designer",
-        "person": "p-catherine-mardis"
-      },
-      {
-        "role": "Assistant projection designer",
-        "person": "p-keri-thibodeau"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-bryan-landrine"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-david-lober"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-gregg-kirsopp"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-alyssa-stone"
-      },
-      {
-        "role": "Associate music director",
-        "person": "p-flint-hawes"
-      },
-      {
-        "role": "Orchestrator",
-        "person": "p-christopher-jahnke"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-alicia-l-albright"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-jeremy-duvall"
-      },
-      {
-        "role": "Music director",
-        "person": "p-p-jason-yarcho"
-      },
-      {
-        "role": "Music director",
-        "person": "p-dan-micciche"
-      },
-      {
-        "role": "Music director",
-        "person": "p-valerie-gebert"
-      },
-      {
-        "role": "Music director",
-        "person": "p-evan-roider"
-      },
-      {
-        "role": "Music director",
-        "person": "p-faith-seetoo"
-      },
-      {
-        "role": "Director",
-        "person": "p-ken-silverman"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-andrew-neal"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-rolando-a-linares"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-aaron-elgart"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-lora-k-powell"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-matt-schreiber"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-joseph-heaton"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-wendy-blackburn-eastland"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-amy-height"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-colleen-danaher"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-matthew-leiner"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-michelle-dunn"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-david-hansen"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-david-o-brien"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-gregg-kirsopp"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-evan-ensign"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-dawn-fenton"
-      },
-      {
-        "role": "Music director",
-        "person": "p-derek-shorter"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-antonette-cohen"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-nicky-venditti"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-dominic-giudici"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-napoleon-w-gladney"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-lisa-finegold"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-lindsay-wood"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-philip-dean-lightstone"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-dashi-mitchell"
-      },
-      {
-        "role": "Assistant dance captain",
-        "person": "p-deanna-aguinaga"
-      }
-    ]
-  },
-  {
     "id": "wicked-p4",
     "show": "wicked",
     "number": 4,
@@ -6828,416 +6196,6 @@
       {
         "role": "Assistant dance captain",
         "person": "p-philip-dean-lightstone"
-      }
-    ]
-  },
-  {
-    "id": "wicked-p5",
-    "show": "wicked",
-    "number": 5,
-    "runType": "touring",
-    "language": "en",
-    "venue": "James M. Nederlander Theatre",
-    "city": "Chicago",
-    "country": "US",
-    "opening": "2005-06-24",
-    "closing": "2009-01-25",
-    "roster": [
-      {
-        "role": "Elphaba",
-        "person": "p-ana-gasteyer",
-        "character": "elphaba"
-      },
-      {
-        "role": "Glinda",
-        "person": "p-kate-reinders",
-        "character": "glinda"
-      },
-      {
-        "role": "Fiyero",
-        "person": "p-kristoffer-cusick",
-        "character": "fiyero"
-      },
-      {
-        "role": "Nessarose",
-        "person": "p-heidi-kettenring",
-        "character": "nessarose"
-      },
-      {
-        "role": "Boq",
-        "person": "p-telly-leung",
-        "character": "boq"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-rondi-reed",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "Doctor Dillamond",
-        "person": "p-steven-skybell",
-        "character": "doctor-dillamond"
-      },
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-gene-weygandt",
-        "character": "the-wonderful-wizard-of-oz"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-christina-bailey",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-christina-bailey"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-dioni-michelle-collins"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-courtney-corey"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-delandis"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeff-dumas"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sarah-jane-everman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kristina-fernandez"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-adam-fleming"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sara-jean-ford"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jay-galmin"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-colleen-hieber"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-mahi-kekumu",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-mahi-kekumu"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-barrett-martin"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-vanessa-mcmahan"
-      },
-      {
-        "role": "Witch's Father",
-        "person": "p-don-richard",
-        "character": "witch-s-father"
-      },
-      {
-        "role": "Ozian Official",
-        "person": "p-don-richard",
-        "character": "ozian-official"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-don-richard"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ashley-robinson"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-kathy-santen",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kathy-santen"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-silverman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-meredith-akins"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brad-bass"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-nicholas-belton"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-kerry-blanchard",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kerry-blanchard"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-cristin-boyle"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anne-brummel"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-justin-caster"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-steve-james-ewing"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kate-fahrner"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-patrick-farrell"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-marisa-field"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-timothy-a-fitz-gerald"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-james-ginnever"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-charles-hagerty"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-gregory-haney",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-gregory-haney"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jill-hayman"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-jill-hayman",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-john-anthony-hoffman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeremy-kocal"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lauren-linville"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-michelle-london"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kate-loprest"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-patrick-mccollum"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jan-neuberger"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-vicki-noon"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-casey-quinn"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-mindy-reid"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-alexander-selma"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brad-simanski"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-dan-yelle-williamson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kevin-samuel-yee"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-neka-zang"
-      },
-      {
-        "role": "Orchestrator",
-        "person": "p-william-david-brohn"
-      },
-      {
-        "role": "Music director",
-        "person": "p-colin-welford"
-      },
-      {
-        "role": "Director",
-        "person": "p-joe-mantello"
-      },
-      {
-        "role": "Associate director",
-        "person": "p-lisa-leguillou"
-      },
-      {
-        "role": "Assistant director",
-        "person": "p-paul-dobie"
-      },
-      {
-        "role": "Scenic designer",
-        "person": "p-eugene-lee"
-      },
-      {
-        "role": "Costume designer",
-        "person": "p-susan-hilferty"
-      },
-      {
-        "role": "Lighting designer",
-        "person": "p-kenneth-posner"
-      },
-      {
-        "role": "Sound designer",
-        "person": "p-tony-meola"
-      },
-      {
-        "role": "Projection designer",
-        "person": "p-elaine-j-mccarthy"
-      },
-      {
-        "role": "Hair and wig designer",
-        "person": "p-tom-watson"
-      },
-      {
-        "role": "Make-up designer",
-        "person": "p-joseph-dulude-ii"
-      },
-      {
-        "role": "Associate scenic designer",
-        "person": "p-edward-pierce"
-      },
-      {
-        "role": "Associate costume designer",
-        "person": "p-michael-sharpe"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-karen-spahn"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-warren-flynn"
-      },
-      {
-        "role": "Associate sound designer",
-        "person": "p-kai-harada"
-      },
-      {
-        "role": "Assistant scenic designer",
-        "person": "p-nick-francone"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amela-baksic"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amy-clark"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amy-c-bradshaw"
-      },
-      {
-        "role": "Assistant lighting designer",
-        "person": "p-aaron-spivey"
-      },
-      {
-        "role": "Assistant projection designer",
-        "person": "p-jake-pinholster"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-kathleen-e-purvis"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-matthew-leiner"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-sharon-l-wilson"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-jason-davies"
-      },
-      {
-        "role": "Assistant dance captain",
-        "person": "p-kristina-fernandez"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-alicia-l-albright"
-      },
-      {
-        "role": "Assistant dance captain",
-        "person": "p-jeremy-duvall"
       }
     ]
   },
@@ -8777,416 +7735,6 @@
     ]
   },
   {
-    "id": "wicked-p9",
-    "show": "wicked",
-    "number": 9,
-    "runType": "touring",
-    "language": "en",
-    "venue": "James M. Nederlander Theatre",
-    "city": "Chicago",
-    "country": "US",
-    "opening": "2005-06-24",
-    "closing": "2009-01-25",
-    "roster": [
-      {
-        "role": "Elphaba",
-        "person": "p-ana-gasteyer",
-        "character": "elphaba"
-      },
-      {
-        "role": "Glinda",
-        "person": "p-kate-reinders",
-        "character": "glinda"
-      },
-      {
-        "role": "Fiyero",
-        "person": "p-kristoffer-cusick",
-        "character": "fiyero"
-      },
-      {
-        "role": "Nessarose",
-        "person": "p-heidi-kettenring",
-        "character": "nessarose"
-      },
-      {
-        "role": "Boq",
-        "person": "p-telly-leung",
-        "character": "boq"
-      },
-      {
-        "role": "Madame Morrible",
-        "person": "p-rondi-reed",
-        "character": "madame-morrible"
-      },
-      {
-        "role": "Doctor Dillamond",
-        "person": "p-steven-skybell",
-        "character": "doctor-dillamond"
-      },
-      {
-        "role": "The Wonderful Wizard of Oz",
-        "person": "p-gene-weygandt",
-        "character": "the-wonderful-wizard-of-oz"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-christina-bailey",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-christina-bailey"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-dioni-michelle-collins"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-courtney-corey"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-delandis"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeff-dumas"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sarah-jane-everman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kristina-fernandez"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-adam-fleming"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-sara-jean-ford"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jay-galmin"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-colleen-hieber"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-mahi-kekumu",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-mahi-kekumu"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-barrett-martin"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-vanessa-mcmahan"
-      },
-      {
-        "role": "Witch's Father",
-        "person": "p-don-richard",
-        "character": "witch-s-father"
-      },
-      {
-        "role": "Ozian Official",
-        "person": "p-don-richard",
-        "character": "ozian-official"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-don-richard"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ashley-robinson"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-kathy-santen",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kathy-santen"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-silverman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-meredith-akins"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brad-bass"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-nicholas-belton"
-      },
-      {
-        "role": "Witch's Mother",
-        "person": "p-kerry-blanchard",
-        "character": "witch-s-mother"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kerry-blanchard"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-cristin-boyle"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-anne-brummel"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-justin-caster"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-steve-james-ewing"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kate-fahrner"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-ryan-patrick-farrell"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-marisa-field"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-timothy-a-fitz-gerald"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-james-ginnever"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-charles-hagerty"
-      },
-      {
-        "role": "Chistery",
-        "person": "p-gregory-haney",
-        "character": "chistery"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-gregory-haney"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jill-hayman"
-      },
-      {
-        "role": "Midwife",
-        "person": "p-jill-hayman",
-        "character": "midwife"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-john-anthony-hoffman"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jeremy-kocal"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-lauren-linville"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-michelle-london"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kate-loprest"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-patrick-mccollum"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-jan-neuberger"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-vicki-noon"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-casey-quinn"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-mindy-reid"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-alexander-selma"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-brad-simanski"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-dan-yelle-williamson"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-kevin-samuel-yee"
-      },
-      {
-        "role": "Ensemble",
-        "person": "p-neka-zang"
-      },
-      {
-        "role": "Orchestrator",
-        "person": "p-william-david-brohn"
-      },
-      {
-        "role": "Music director",
-        "person": "p-colin-welford"
-      },
-      {
-        "role": "Director",
-        "person": "p-joe-mantello"
-      },
-      {
-        "role": "Associate director",
-        "person": "p-lisa-leguillou"
-      },
-      {
-        "role": "Assistant director",
-        "person": "p-paul-dobie"
-      },
-      {
-        "role": "Scenic designer",
-        "person": "p-eugene-lee"
-      },
-      {
-        "role": "Costume designer",
-        "person": "p-susan-hilferty"
-      },
-      {
-        "role": "Lighting designer",
-        "person": "p-kenneth-posner"
-      },
-      {
-        "role": "Sound designer",
-        "person": "p-tony-meola"
-      },
-      {
-        "role": "Projection designer",
-        "person": "p-elaine-j-mccarthy"
-      },
-      {
-        "role": "Hair and wig designer",
-        "person": "p-tom-watson"
-      },
-      {
-        "role": "Make-up designer",
-        "person": "p-joseph-dulude-ii"
-      },
-      {
-        "role": "Associate scenic designer",
-        "person": "p-edward-pierce"
-      },
-      {
-        "role": "Associate costume designer",
-        "person": "p-michael-sharpe"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-karen-spahn"
-      },
-      {
-        "role": "Associate lighting designer",
-        "person": "p-warren-flynn"
-      },
-      {
-        "role": "Associate sound designer",
-        "person": "p-kai-harada"
-      },
-      {
-        "role": "Assistant scenic designer",
-        "person": "p-nick-francone"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amela-baksic"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amy-clark"
-      },
-      {
-        "role": "Assistant costume designer",
-        "person": "p-amy-c-bradshaw"
-      },
-      {
-        "role": "Assistant lighting designer",
-        "person": "p-aaron-spivey"
-      },
-      {
-        "role": "Assistant projection designer",
-        "person": "p-jake-pinholster"
-      },
-      {
-        "role": "Production stage manager",
-        "person": "p-kathleen-e-purvis"
-      },
-      {
-        "role": "Stage manager",
-        "person": "p-matthew-leiner"
-      },
-      {
-        "role": "Assistant stage manager",
-        "person": "p-sharon-l-wilson"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-jason-davies"
-      },
-      {
-        "role": "Assistant dance captain",
-        "person": "p-kristina-fernandez"
-      },
-      {
-        "role": "Dance captain",
-        "person": "p-alicia-l-albright"
-      },
-      {
-        "role": "Assistant dance captain",
-        "person": "p-jeremy-duvall"
-      }
-    ]
-  },
-    {
     "id": "hamilton-p3",
     "show": "hamilton",
     "number": 3,
