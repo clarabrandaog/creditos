@@ -1,4 +1,4 @@
-[
+ [
   {
     "id": "wicked-p1-7849",
     "production": "wicked-p1",
@@ -454,5 +454,605 @@
     "preview": false,
     "matinee": false,
     "changes": []
+  },
+  {
+    "id": "hadestown-p2-1",
+    "production": "hadestown-p2",
+    "number": 1,
+    "date": "2019-03-22",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hadestown-p2-28",
+    "production": "hadestown-p2",
+    "number": 28,
+    "date": "2019-04-17",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "hadestown-p2-2019-09-24",
+    "production": "hadestown-p2",
+    "number": null,
+    "date": "2019-09-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Workers Chorus",
+        "person": "p-anthony-chatmon-ii",
+        "replaces": "p-ahmad-simmons",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "hadestown-p2-2026-09-01",
+    "production": "hadestown-p2",
+    "number": null,
+    "date": "2026-09-01",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Eurydice",
+        "person": "p-jasmin-savoy-brown",
+        "replaces": "p-jordan-tyson",
+        "type": "replacement"
+      },
+      {
+        "role": "Hermes",
+        "person": "p-norbert-leo-butz",
+        "replaces": "p-j-harrison-ghee",
+        "type": "replacement"
+      },
+      {
+        "role": "Hades",
+        "person": "p-ben-davis",
+        "replaces": "p-gary-dourdan",
+        "type": "replacement"
+      },
+      {
+        "role": "Persephone",
+        "person": "p-amber-iman",
+        "replaces": "p-gaby-moreno",
+        "type": "replacement"
+      },
+      {
+        "role": "Orpheus",
+        "person": "p-kayko",
+        "replaces": "p-john-michael-lyles",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "chicago-p2-1",
+    "production": "chicago-p2",
+    "number": 1,
+    "date": "1996-10-23",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "chicago-p2-25",
+    "production": "chicago-p2",
+    "number": 25,
+    "date": "1996-11-14",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "chicago-p2-1997-02-11",
+    "production": "chicago-p2",
+    "number": null,
+    "date": "1997-02-11",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Shubert Theatre (",
+        "person": "p-rocker-verastique",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "chicago-p2-2026-09-07",
+    "production": "chicago-p2",
+    "number": null,
+    "date": "2026-09-07",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Roxie Hart",
+        "person": "p-reece-weaver",
+        "replaces": "p-ivy",
+        "type": "replacement"
+      },
+      {
+        "role": "Amos Hart",
+        "person": "p-red-concepcion",
+        "replaces": "p-eddie-cooper",
+        "type": "replacement"
+      },
+      {
+        "role": "Matron \"Mama\" Morton",
+        "person": "p-natasha-yvette-williams",
+        "replaces": "p-alex-newell",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "aladdin-p1-1",
+    "production": "aladdin-p1",
+    "number": 1,
+    "date": "2014-02-26",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "aladdin-p1-22",
+    "production": "aladdin-p1",
+    "number": 22,
+    "date": "2014-03-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "aladdin-p1-2014-09-09",
+    "production": "aladdin-p1",
+    "number": null,
+    "date": "2014-09-09",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-amber-owens",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "aladdin-p1-2026-10-16",
+    "production": "aladdin-p1",
+    "number": null,
+    "date": "2026-10-16",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Genie",
+        "person": "p-sherri-shepherd",
+        "replaces": "p-caleb-a-barnett",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "mj-p1-1",
+    "production": "mj-p1",
+    "number": 1,
+    "date": "2021-12-06",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "mj-p1-40",
+    "production": "mj-p1",
+    "number": 40,
+    "date": "2022-02-01",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "mj-p1-2022-03-15",
+    "production": "mj-p1",
+    "number": null,
+    "date": "2022-03-15",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "(",
+        "person": "p-kali-may-grinder",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "mj-p1-2026-10-06",
+    "production": "mj-p1",
+    "number": null,
+    "date": "2026-10-06",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Little Michael",
+        "person": "p-cree-silver-corley",
+        "replaces": "p-jackson-robert-vann",
+        "type": "alternate"
+      }
+    ]
+  },
+  {
+    "id": "maybe-happy-ending-p1-1",
+    "production": "maybe-happy-ending-p1",
+    "number": 1,
+    "date": "2024-10-16",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "maybe-happy-ending-p1-29",
+    "production": "maybe-happy-ending-p1",
+    "number": 29,
+    "date": "2024-11-12",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "maybe-happy-ending-p1-2025-09-02",
+    "production": "maybe-happy-ending-p1",
+    "number": null,
+    "date": "2025-09-02",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Oliver",
+        "person": "p-andrew-barth-feldman",
+        "replaces": "p-darren-criss",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "maybe-happy-ending-p1-2026-08-04",
+    "production": "maybe-happy-ending-p1",
+    "number": null,
+    "date": "2026-08-04",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Claire",
+        "person": "p-savy-jackson",
+        "replaces": "p-claire-kwon",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "just-in-time-p1-1",
+    "production": "just-in-time-p1",
+    "number": 1,
+    "date": "2025-03-31",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "just-in-time-p1-28",
+    "production": "just-in-time-p1",
+    "number": 28,
+    "date": "2025-04-26",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "just-in-time-p1-2025-09-16",
+    "production": "just-in-time-p1",
+    "number": null,
+    "date": "2025-09-16",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Sandra Dee",
+        "person": "p-sadie-dickerson",
+        "replaces": "p-erika-henningsen",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "just-in-time-p1-2026-09-12",
+    "production": "just-in-time-p1",
+    "number": null,
+    "date": "2026-09-12",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Connie Francis",
+        "person": "p-ariana-madix",
+        "replaces": "p-olivia-holt",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "oh-mary-p1-1",
+    "production": "oh-mary-p1",
+    "number": 1,
+    "date": "2024-06-26",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "oh-mary-p1-15",
+    "production": "oh-mary-p1",
+    "number": 15,
+    "date": "2024-07-11",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "oh-mary-p1-2025-01-21",
+    "production": "oh-mary-p1",
+    "number": null,
+    "date": "2025-01-21",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Mary Todd Lincoln",
+        "person": "p-betty-gilpin",
+        "replaces": "p-cole-escola",
+        "type": "replacement"
+      },
+      {
+        "role": "Mary's Husband",
+        "person": "p-phillip-james-brannon",
+        "replaces": "p-conrad-ricamora",
+        "type": "replacement"
+      },
+      {
+        "role": "Mary's Teacher",
+        "person": "p-chris-renfro",
+        "replaces": "p-james-scully",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "oh-mary-p1-2026-09-15",
+    "production": "oh-mary-p1",
+    "number": null,
+    "date": "2026-09-15",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Mary Todd Lincoln",
+        "person": "p-bowen-yang",
+        "replaces": "p-meg-stalter",
+        "type": "replacement"
+      },
+      {
+        "role": "Mary's Husband's Assistant",
+        "person": "p-tony-macht",
+        "replaces": "p-ryo-kamibayashi",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical-p1-1",
+    "production": "operation-mincemeat-a-new-musical-p1",
+    "number": 1,
+    "date": "2025-02-15",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical-p1-34",
+    "production": "operation-mincemeat-a-new-musical-p1",
+    "number": 34,
+    "date": "2025-03-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical-p1-2025-03-21",
+    "production": "operation-mincemeat-a-new-musical-p1",
+    "number": null,
+    "date": "2025-03-21",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "(",
+        "person": "p-joshua-zecher-ross",
+        "replaces": "p-mary-ann-mcsweeney",
+        "type": "replacement"
+      },
+      {
+        "role": "(",
+        "person": "p-amanda-morton",
+        "replaces": "p-mary-ann-mcsweeney",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical-p1-2026-03-23",
+    "production": "operation-mincemeat-a-new-musical-p1",
+    "number": null,
+    "date": "2026-03-23",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "(",
+        "person": "p-robert-ariza",
+        "replaces": "p-mary-ann-mcsweeney",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "schmigadoon-p1-1",
+    "production": "schmigadoon-p1",
+    "number": 1,
+    "date": "2026-04-04",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "schmigadoon-p1-17",
+    "production": "schmigadoon-p1",
+    "number": 17,
+    "date": "2026-04-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "schmigadoon-p1-2026-05-07",
+    "production": "schmigadoon-p1",
+    "number": null,
+    "date": "2026-05-07",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "(",
+        "person": "p-antonio-marion",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "schmigadoon-p1-2026-09-08",
+    "production": "schmigadoon-p1",
+    "number": null,
+    "date": "2026-09-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Mildred Layton",
+        "person": "p-jennifer-simard",
+        "replaces": "p-ana-gasteyer",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-book-of-mormon-p1-1",
+    "production": "the-book-of-mormon-p1",
+    "number": 1,
+    "date": "2011-02-24",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-book-of-mormon-p1-29",
+    "production": "the-book-of-mormon-p1",
+    "number": 29,
+    "date": "2011-03-24",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-book-of-mormon-p1-2012-03-27",
+    "production": "the-book-of-mormon-p1",
+    "number": null,
+    "date": "2012-03-27",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Mrs. Brown",
+        "person": "p-tamika-sonja-lawrence",
+        "replaces": null,
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-book-of-mormon-p1-2026-09-01",
+    "production": "the-book-of-mormon-p1",
+    "number": null,
+    "date": "2026-09-01",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-blake-morgan-ferris",
+        "replaces": "p-andrew-stevens-purdy",
+        "type": "replacement"
+      }
+    ]
   }
 ]

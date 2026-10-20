@@ -21,6 +21,7 @@ export function StubView(store, show, performance) {
     company.hidden = true;
     const ticket = Ticket({
       show, production, performance,
+      showHref: links.show(show.id),
       onTear: () => {
         company.hidden = false;
         company.classList.add("company--reveal");

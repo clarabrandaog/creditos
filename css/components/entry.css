@@ -11,3 +11,5 @@
 .entry-list--stubs .entry__label { font-size: min(var(--display-stub), 12cqw); }   /* 12cqw fits a 9-letter word (HADESTOWN) */
 .entry-list--lines .entry { padding: var(--space-3) 0 var(--space-4); border-top: var(--line) solid var(--ink); }
 .entry-list--lines .entry__label { font-size: min(var(--display-line), 12cqw); }
+/* compact stubs (show page): secondary to the page title, so one step down to the line size and kept to one line */
+.entry-list--compact .entry__label { font-size: min(var(--display-line), 9cqw); white-space: nowrap; }

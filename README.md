@@ -25,7 +25,7 @@ js/
   config.js             hold duration, data folder
   data/store.js         loads the JSON and exposes lookups (the only door to the data)
   data/integrity.js     checks that every id points at something (warns in the console)
-  domain/               pure logic, no DOM: company.js (roster + changes), credits.js (show history, a person's credits), search-index.js
+  domain/               pure logic, no DOM: company.js (roster + changes), credits.js (show history and overview, a person's credits), search-index.js
   lib/                  dom.js (element builder h()), utils.js, title.js (fits titles to the ticket)
   components/           one function per component: Entry, RowList, Ticket, HoldButton, ...
   views/                home.js, stub.js, show.js and person.js assemble components into pages
@@ -50,7 +50,7 @@ A night's company = the production's roster with that night's changes applied (`
 | Route | Page | Notes |
 |---|---|---|
 | `#/` | Home | With no query, show cards open their latest night. In results, shows open the show page and people open their profile. |
-| `#/show/<id>` | Show | Facts, a night count, then each production: where and when, its company (toggle), and its nights newest first. Each night links to its stub. |
+| `#/show/<id>` | Show | An aggregate of the piece (`showOverview` in `domain/credits.js`): facts and totals, the latest night of each production as a stub card, then every production with its counts, its three most recent nights, older nights and the company behind toggles. Runs that share a run type get their number ("Broadway 2"). Each night links to its stub. |
 | `#/show/<id>/<performance>` | Stub | Every name in the company links to that person's profile. |
 | `#/person/<id>` | Profile | Every show the person is credited on, grouped by production, with each night they were on. A night they were replaced drops out and a night they covered is added, with its note (`domain/credits.js`). Labeled Actor, Crew, or both: a role is cast when it names one of the show's characters. |
 

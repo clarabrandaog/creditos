@@ -10,11 +10,12 @@ export function runLine(production) {
   return [`${production.venue}, ${production.city}`, dates].filter(Boolean).join(" · ");
 }
 
-// One production run: heading, where and when, then whatever the view passes as children.
-// level is the heading level (2 on the show page, 3 under a show on a profile).
-export function ProductionBlock({ production, level = 2, title, children }) {
+// One production run: heading, where and when, an optional line of counts (meta: [text]),
+// then whatever the view passes as children. level is the heading level (3 under a section head or a show).
+export function ProductionBlock({ production, level = 2, title, meta = [], children }) {
   return h("section", { class: "production" },
     h(`h${level}`, { class: "production__title" }, title ?? productionName(production)),
     h("p", { class: "production__sub" }, runLine(production)),
+    meta.length > 0 && h("p", { class: "production__meta" }, meta.join(" · ")),
     children);
 }

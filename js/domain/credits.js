@@ -14,6 +14,24 @@ export function showHistory(store, showId) {
     .map(production => ({ production, nights: store.performancesOf(production.id).slice().sort(newestFirst) }));
 }
 
+// The show page in one pass: every run (from showHistory), the latest night of each run that has one
+// (newest first), and the totals across all of them. People counts everyone on a roster, a change or the composers.
+//   { runs, latestNights: [{ production, performance }], nightCount, peopleCount }
+export function showOverview(store, showId) {
+  const runs = showHistory(store, showId);
+  const latestNights = runs.filter(run => run.nights.length)
+    .map(({ production, nights }) => ({ production, performance: nights[0] }))
+    .sort((a, b) => newestFirst(a.performance, b.performance));
+  const people = new Set([
+    ...(store.show(showId)?.composers ?? []),
+    ...runs.flatMap(({ production, nights }) => [
+      ...production.roster.map(r => r.person),
+      ...nights.flatMap(pf => (pf.changes ?? []).map(c => c.person)),
+    ]),
+  ]);
+  return { runs, latestNights, nightCount: runs.reduce((sum, run) => sum + run.nights.length, 0), peopleCount: people.size };
+}
+
 // Every credit for one person, grouped show > production. Derived, never stored on the person.
 //   { shows: [{ show, roles, productions: [{ production, roles, nights: [{ performance, role, note? }] }] }],
 //     nightCount, productionCount, cast, crew }

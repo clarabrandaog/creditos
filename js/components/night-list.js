@@ -8,9 +8,12 @@ export function NightList(nights) {
     h("li", { class: `night-list__item${changed ? " night-list__item--changed" : ""}` },
       h("a", { class: "night-list__link", href },
         h("span", { class: "night-list__date" }, formatDate(performance.date)),
-        h("span", { class: "night-list__time" }, `${performance.time} · no. ${performance.number}`),
+        h("span", { class: "night-list__time" }, nightNumber(performance)),
         details.length > 0 && h("span", { class: "night-list__detail" }, details.join(" · "))))));
 }
+
+// "19:00 · no. 7852", leaving out whatever was not logged (imported nights can lack both).
+export const nightNumber = ({ time, number }) => [time, number != null && `no. ${number}`].filter(Boolean).join(" · ");
 
 // The tags every night can carry, whoever is looking at it.
 export function nightTags(performance, production) {

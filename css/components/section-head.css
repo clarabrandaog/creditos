@@ -1,0 +1,5 @@
+/* SectionHead: a quiet label over a thick rule. It groups what follows without competing with the display type. */
+.section-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-1) var(--space-3); margin: var(--space-16) 0 var(--space-6); padding-top: var(--space-3); border-top: var(--line) solid var(--ink); font-size: var(--text-sm); font-weight: var(--w-black); font-stretch: var(--wdth-wide); letter-spacing: .08em; text-transform: uppercase; }
+.section-head__note { font-weight: var(--w-light); font-stretch: var(--wdth-narrow); letter-spacing: 0; text-transform: none; }
+/* the first block under a head sits on the head's rule, so it drops its own top gap */
+.section-head + .production { margin-top: 0; }

@@ -12,6 +12,9 @@
 /* Title: one line per word group. Sizes come from JS (lib/title.js) so each line fills the width. */
 .ticket__title { container-type: inline-size; margin: var(--space-4) 0; font-weight: var(--w-black); text-transform: uppercase; }
 .ticket__title-line { line-height: .9; white-space: nowrap; }
+/* the title links to the show page: no underline at rest, the pink one on hover like other display links */
+.ticket__title-link { display: block; text-decoration: none; }
+@media (hover: hover) { .ticket__title-link:hover { text-decoration: underline; text-decoration-color: var(--pink); text-decoration-thickness: var(--line); } }
 .ticket__title-line--wide { font-stretch: var(--wdth-wide); }
 .ticket__title-line--narrow { font-stretch: var(--wdth-condensed); }
 

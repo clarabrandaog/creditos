@@ -7,7 +7,8 @@ const STAMP_TEXT = { was: "I was there", want: "I wanted to be here" };
 
 // The stub for one performance. onTear(kind) runs once, when a hold completes ("was" or "want").
 // A touring night may carry its own venue and city. Otherwise the production's are used.
-export function Ticket({ show, production, performance, onTear }) {
+// showHref, when given, turns the title into a link to the show page.
+export function Ticket({ show, production, performance, showHref, onTear }) {
   const venue = performance.venue ?? production.venue;
   const city = performance.city ?? production.city;
   const stamp = h("div", { class: "ticket__stamp", "aria-live": "polite" });
@@ -24,12 +25,16 @@ export function Ticket({ show, production, performance, onTear }) {
     onComplete: () => tear(kind),
   });
 
-  const meta = [["Production", production.number], ["Performance", `No. ${performance.number}`], ["Date", formatDate(performance.date)], ["Curtain", performance.time]];
+  // imported nights can lack a number or a curtain time, so anything not logged is left out
+  const meta = [["Production", production.number], ["Performance", performance.number != null && `No. ${performance.number}`], ["Date", formatDate(performance.date)], ["Curtain", performance.time]]
+    .filter(([, value]) => value != null && value !== false);
   const fitted = fitLines(show.title);
   const titleLines = fitted.map(line =>
     h("span", { class: `w ticket__title-line ticket__title-line--${line.wide ? "wide" : "narrow"}`, dataset: { t: line.text }, style: { fontSize: line.size } }, line.text));
 
-  const title = h("h1", { class: "ticket__title", "aria-label": show.title }, titleLines);
+  const title = showHref
+    ? h("h1", { class: "ticket__title" }, h("a", { class: "ticket__title-link", href: showHref, "aria-label": show.title }, titleLines))
+    : h("h1", { class: "ticket__title", "aria-label": show.title }, titleLines);
   shrinkToFit(title, titleLines, fitted);
 
   const ticket = h("section", { class: "ticket", "aria-label": "Ticket stub" },

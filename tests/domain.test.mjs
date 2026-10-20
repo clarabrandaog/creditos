@@ -9,7 +9,7 @@ import { buildIndex, searchIndex } from "../js/domain/search-index.js";
 import { fitLines } from "../js/lib/title.js";
 import { formatDate, safeLink } from "../js/lib/utils.js";
 import { parseRoute, links } from "../js/router.js";
-import { showHistory, personCredits } from "../js/domain/credits.js";
+import { showHistory, showOverview, personCredits } from "../js/domain/credits.js";
 
 const read = name => JSON.parse(readFileSync(new URL(`../data/${name}.json`, import.meta.url), "utf8"));
 const store = createStore({ shows: read("shows"), productions: read("productions"), performances: read("performances"), people: read("people") });
@@ -83,6 +83,15 @@ test("show page: productions in order, nights newest first, empty runs kept", ()
   assert.deepEqual(history.map(r => r.production.id), ["wicked-p1", "wicked-p2"]);
   assert.equal(history[0].nights[0].id, "wicked-p1-7852");
   assert.equal(history[1].nights.length, 0);
+});
+
+test("show page: latest night of each run, totals across every run", () => {
+  const wicked = showOverview(store, "wicked");
+  assert.deepEqual(wicked.latestNights.map(n => n.performance.id), ["wicked-p1-7852"]);   // the touring run has no nights yet
+  assert.equal(wicked.nightCount, 4);
+  assert.ok(wicked.peopleCount >= store.production("wicked-p1").roster.length);
+  const hadestown = showOverview(store, "hadestown").latestNights.map(n => `${n.performance.date} ${n.performance.time}`);
+  assert.deepEqual(hadestown, [...hadestown].sort().reverse());
 });
 
 test("profile: a cover night is added with its note", () => {
