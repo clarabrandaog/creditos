@@ -1,0 +1,2911 @@
+[
+  {
+    "id": "wicked-p1",
+    "show": "wicked",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Gershwin Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2003-10-30",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Elphaba",
+        "person": "p-jessica-vosk",
+        "character": "elphaba"
+      },
+      {
+        "role": "Glinda",
+        "person": "p-amanda-jane-cooper",
+        "character": "glinda"
+      },
+      {
+        "role": "Fiyero",
+        "person": "p-kyle-selig",
+        "character": "fiyero"
+      },
+      {
+        "role": "The Wizard",
+        "person": "p-john-dossett",
+        "character": "wizard"
+      },
+      {
+        "role": "Director",
+        "person": "p-joe-dixon"
+      },
+      {
+        "role": "Music director",
+        "person": "p-stephen-schwartz"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-larry-hoffman"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      },
+      {
+        "role": "Wardrobe",
+        "person": "p-diane-dicroce"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p2",
+    "show": "wicked",
+    "number": 2,
+    "runType": "touring",
+    "language": "en",
+    "venue": "James M. Nederlander Theatre",
+    "city": "Chicago",
+    "country": "US",
+    "opening": "2025-09-05",
+    "roster": [
+      {
+        "role": "Elphaba",
+        "person": "p-kristin-stokes",
+        "character": "elphaba"
+      },
+      {
+        "role": "Glinda",
+        "person": "p-julia-k-harriman",
+        "character": "glinda"
+      },
+      {
+        "role": "Fiyero",
+        "person": "p-jordan-fisher",
+        "character": "fiyero"
+      },
+      {
+        "role": "The Wizard",
+        "person": "p-michael-mccormick",
+        "character": "wizard"
+      },
+      {
+        "role": "Director",
+        "person": "p-joe-dixon"
+      },
+      {
+        "role": "Music director",
+        "person": "p-stephen-schwartz"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-passaro"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      },
+      {
+        "role": "Wardrobe",
+        "person": "p-diane-dicroce"
+      }
+    ]
+  },
+  {
+    "id": "hamilton-p1",
+    "show": "hamilton",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Richard Rodgers Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2015-08-06",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Alexander Hamilton",
+        "person": "p-miguel-cervantes",
+        "character": "hamilton"
+      },
+      {
+        "role": "Aaron Burr",
+        "person": "p-nik-walker",
+        "character": "burr"
+      },
+      {
+        "role": "Eliza Hamilton",
+        "person": "p-krystal-joy-brown",
+        "character": "eliza"
+      },
+      {
+        "role": "Angelica Schuyler",
+        "person": "p-mandy-gonzalez",
+        "character": "angelica"
+      },
+      {
+        "role": "George Washington",
+        "person": "p-christopher-jackson"
+      },
+      {
+        "role": "King George",
+        "person": "p-jonathan-groff"
+      },
+      {
+        "role": "Director",
+        "person": "p-thomas-kail"
+      },
+      {
+        "role": "Music director",
+        "person": "p-lin-manuel-miranda"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jennifer-lamb"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-david-harris"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-james-brown-iii"
+      }
+    ]
+  },
+  {
+    "id": "the-lion-king-p1",
+    "show": "the-lion-king",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Minskoff Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "1997-11-13",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Simba",
+        "person": "p-aaron-tveit",
+        "character": "simba"
+      },
+      {
+        "role": "Nala",
+        "person": "p-karen-olivo",
+        "character": "nala"
+      },
+      {
+        "role": "Scar",
+        "person": "p-stephen-carlile",
+        "character": "scar"
+      },
+      {
+        "role": "Mufasa",
+        "person": "p-l-steven-taylor",
+        "character": "mufasa"
+      },
+      {
+        "role": "Director",
+        "person": "p-julie-taymor"
+      },
+      {
+        "role": "Music director",
+        "person": "p-elton-john"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-larry-hoffman"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      },
+      {
+        "role": "Wardrobe",
+        "person": "p-diane-dicroce"
+      }
+    ]
+  },
+  {
+    "id": "chicago-p1",
+    "show": "chicago",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Ambassador Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "1996-11-14",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Roxie Hart",
+        "person": "p-bianca-marroquin",
+        "character": "roxie"
+      },
+      {
+        "role": "Velma Kelly",
+        "person": "p-charlotte-damboise",
+        "character": "velma"
+      },
+      {
+        "role": "Billy Flynn",
+        "person": "p-james-t-monaco",
+        "character": "billy"
+      },
+      {
+        "role": "Mama Morton",
+        "person": "p-tshidi-manye",
+        "character": "mama"
+      },
+      {
+        "role": "Director",
+        "person": "p-walter-bobbie"
+      },
+      {
+        "role": "Music director",
+        "person": "p-john-kander"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-passaro"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-david-harris"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-james-brown-iii"
+      }
+    ]
+  },
+  {
+    "id": "hadestown-p1",
+    "show": "hadestown",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Walter Kerr Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2019-04-17",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Orpheus",
+        "person": "p-jordan-donica",
+        "character": "orpheus"
+      },
+      {
+        "role": "Eurydice",
+        "person": "p-eva-noblezada",
+        "character": "eurydice"
+      },
+      {
+        "role": "Hades",
+        "person": "p-patrick-page",
+        "character": "hades"
+      },
+      {
+        "role": "Persephone",
+        "person": "p-amber-gray",
+        "character": "persephone"
+      },
+      {
+        "role": "Director",
+        "person": "p-rachel-chavkin"
+      },
+      {
+        "role": "Music director",
+        "person": "p-anais-mitchell"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jennifer-lamb"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      }
+    ]
+  },
+  {
+    "id": "and-juliet-p1",
+    "show": "and-juliet",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Stephen Sondheim Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2022-11-17",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Juliet",
+        "person": "p-lorna-courtney",
+        "character": "juliet"
+      },
+      {
+        "role": "May",
+        "person": "p-stark-sands",
+        "character": "may"
+      },
+      {
+        "role": "Anne Hathaway",
+        "person": "p-betsy-wolfe",
+        "character": "anne"
+      },
+      {
+        "role": "François Du Bois",
+        "person": "p-gerard-canonaco",
+        "character": "francois"
+      },
+      {
+        "role": "Director",
+        "person": "p-luke-sheppard"
+      },
+      {
+        "role": "Music director",
+        "person": "p-max-martin"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-larry-hoffman"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-david-harris"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-james-brown-iii"
+      }
+    ]
+  },
+  {
+    "id": "the-outsiders-p1",
+    "show": "the-outsiders",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Bernard B. Jacobs Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2024-04-11",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Ponyboy Curtis",
+        "person": "p-brody-grant",
+        "character": "ponyboy"
+      },
+      {
+        "role": "Johnny Cade",
+        "person": "p-joshua-qualley",
+        "character": "johnny"
+      },
+      {
+        "role": "Dallas Winston",
+        "person": "p-brent-comer",
+        "character": "dally"
+      },
+      {
+        "role": "Sodapop Curtis",
+        "person": "p-ryan-foust",
+        "character": "soda"
+      },
+      {
+        "role": "Director",
+        "person": "p-danya-taymor"
+      },
+      {
+        "role": "Music director",
+        "person": "p-j-taylor-moore"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-passaro"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      }
+    ]
+  },
+  {
+    "id": "suffs-p1",
+    "show": "suffs",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Music Box Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2024-04-18",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Alice Paul",
+        "person": "p-shaina-taub",
+        "character": "alice"
+      },
+      {
+        "role": "Carrie Chapman Catt",
+        "person": "p-jenn-colella",
+        "character": "carrie"
+      },
+      {
+        "role": "Ida B. Wells",
+        "person": "p-ally-bonino",
+        "character": "ida"
+      },
+      {
+        "role": "Lucy Burns",
+        "person": "p-nadia-dandashi",
+        "character": "lucy"
+      },
+      {
+        "role": "Director",
+        "person": "p-leigh-silverman"
+      },
+      {
+        "role": "Music director",
+        "person": "p-shaina-taub"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jennifer-lamb"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-david-harris"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-james-brown-iii"
+      }
+    ]
+  },
+  {
+    "id": "death-becomes-her-p1",
+    "show": "death-becomes-her",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Lunt-Fontanne Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2024-11-21",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Madeline Ashton",
+        "person": "p-megan-hilty",
+        "character": "madeline"
+      },
+      {
+        "role": "Helen Sharp",
+        "person": "p-jennifer-simard",
+        "character": "helen"
+      },
+      {
+        "role": "Ernest Munk",
+        "person": "p-christopher-sieber",
+        "character": "ernest"
+      },
+      {
+        "role": "Director",
+        "person": "p-christopher-gattelli"
+      },
+      {
+        "role": "Music director",
+        "person": "p-chris-tin"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-larry-hoffman"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-emily-cooper"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-sarah-foret"
+      }
+    ]
+  },
+  {
+    "id": "moulin-rouge-p1",
+    "show": "moulin-rouge",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Al Hirschfeld Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2019-07-25",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Christian",
+        "person": "p-aaron-tveit",
+        "character": "christian"
+      },
+      {
+        "role": "Satine",
+        "person": "p-karen-olivo",
+        "character": "satine"
+      },
+      {
+        "role": "The Duke",
+        "person": "p-sahr-ngaujah",
+        "character": "duke"
+      },
+      {
+        "role": "Harold Zidler",
+        "person": "p-danny-burstein",
+        "character": "zidler"
+      },
+      {
+        "role": "Director",
+        "person": "p-alex-timbers"
+      },
+      {
+        "role": "Music director",
+        "person": "p-elton-john"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-passaro"
+      },
+      {
+        "role": "Light operator",
+        "person": "p-david-harris"
+      },
+      {
+        "role": "Sound operator",
+        "person": "p-james-brown-iii"
+      }
+    ]
+  },
+  {
+    "id": "hadestown-p2",
+    "show": "hadestown",
+    "number": 2,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Walter Kerr Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2019-04-17",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Orpheus",
+        "person": "p-reeve-carney",
+        "character": "orpheus"
+      },
+      {
+        "role": "Hermes",
+        "person": "p-andre-de-shields",
+        "character": "hermes"
+      },
+      {
+        "role": "Persephone",
+        "person": "p-amber-gray",
+        "character": "persephone"
+      },
+      {
+        "role": "Eurydice",
+        "person": "p-eva-noblezada",
+        "character": "eurydice"
+      },
+      {
+        "role": "Hades",
+        "person": "p-patrick-page",
+        "character": "hades"
+      },
+      {
+        "role": "Fate",
+        "person": "p-jewelle-blackman",
+        "character": "fate"
+      },
+      {
+        "role": "Fate",
+        "person": "p-yvette-gonzalez-nacer",
+        "character": "fate"
+      },
+      {
+        "role": "Fate",
+        "person": "p-kay-trinidad",
+        "character": "fate"
+      },
+      {
+        "role": "Workers Chorus",
+        "person": "p-afra-hines",
+        "character": "workers-chorus"
+      },
+      {
+        "role": "Workers Chorus",
+        "person": "p-timothy-hughes",
+        "character": "workers-chorus"
+      },
+      {
+        "role": "Workers Chorus",
+        "person": "p-john-krause",
+        "character": "workers-chorus"
+      },
+      {
+        "role": "Workers Chorus",
+        "person": "p-kimberly-marable",
+        "character": "workers-chorus"
+      },
+      {
+        "role": "Workers Chorus",
+        "person": "p-ahmad-simmons",
+        "character": "workers-chorus"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-michael-chorney"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-todd-sickafoose"
+      },
+      {
+        "role": "Music director",
+        "person": "p-liam-robinson"
+      },
+      {
+        "role": "Music director",
+        "person": "p-cody-owen-stine"
+      },
+      {
+        "role": "Director",
+        "person": "p-rachel-chavkin"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-david-neumann"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-katie-rose-mclaughlin"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-rachel-hauck"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-michael-krass"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-bradley-king"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-nevin-steinberg"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-jessica-paz"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-meredith-b-ries"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-heather-lockard"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-john-viesta"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-alex-swann"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-jessica-bonaventure"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-susannah-hyde"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-ryan-howell"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-lawrence-e-moten-iii"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-brooke-henderson"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-alex-mannix"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-connor-wang"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-beverly-jenkins"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-paul-j-smith"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-cherie-b-tay"
+      },
+      {
+        "role": "Music director",
+        "person": "p-sean-mayes"
+      },
+      {
+        "role": "Music director",
+        "person": "p-nathan-koci"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-ahmad-simmons"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-t-oliver-reid"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-justin-hall"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-siena-zoe-allen"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-aldora-neal"
+      }
+    ]
+  },
+  {
+    "id": "chicago-p2",
+    "show": "chicago",
+    "number": 2,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Richard Rodgers Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "1996-11-14",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Roxie Hart",
+        "person": "p-ann-reinking",
+        "character": "roxie-hart"
+      },
+      {
+        "role": "Billy Flynn",
+        "person": "p-tom-hewitt",
+        "character": "billy-flynn"
+      },
+      {
+        "role": "Mary Sunshine",
+        "person": "p-r-lowe",
+        "character": "mary-sunshine"
+      },
+      {
+        "role": "Mary Sunshine",
+        "person": "p-r-bean",
+        "character": "mary-sunshine"
+      },
+      {
+        "role": "Billy Flynn",
+        "person": "p-bernard-dotson",
+        "character": "billy-flynn"
+      },
+      {
+        "role": "Liz",
+        "person": "p-mary-claire-king",
+        "character": "liz"
+      },
+      {
+        "role": "Sergeant Fogarty",
+        "person": "p-barrett-martin",
+        "character": "sergeant-fogarty"
+      },
+      {
+        "role": "Bailiff",
+        "person": "p-drew-nellessen",
+        "character": "bailiff"
+      },
+      {
+        "role": "Harry",
+        "person": "p-michael-scirrotto",
+        "character": "harry"
+      },
+      {
+        "role": "Matron",
+        "person": "p-carol-woods",
+        "character": "matron"
+      },
+      {
+        "role": "Music director",
+        "person": "p-rob-fisher"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-ralph-burns"
+      },
+      {
+        "role": "Director",
+        "person": "p-walter-bobbie"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-ann-reinking"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-bob-fosse"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-debra-mcwaters"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-john-lee-beatty"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-william-ivey-long"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ken-billington"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-scott-lehrer"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-john-mckernon"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-shelley-barclay"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-eric-renschler"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-lynn-bowling"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-clifford-schwartz"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-terrence-j-witter"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-mindy-farbrother"
+      },
+      {
+        "role": "Music director",
+        "person": "p-jeffrey-saver"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-joel-grey"
+      },
+      {
+        "role": "Music director",
+        "person": "p-robert-billig"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-jon-kusner"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-donald-sanders"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-sherry-cohen"
+      },
+      {
+        "role": "Music director",
+        "person": "p-john-mcdaniel"
+      },
+      {
+        "role": "Music director",
+        "person": "p-rob-bowman"
+      },
+      {
+        "role": "Music director",
+        "person": "p-gregory-j-dlugos"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-terrence-j-witter"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-mindy-farbrother"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-joshua-halperin"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-tamlyn-freund"
+      },
+      {
+        "role": "Music director",
+        "person": "p-leslie-stifelman"
+      },
+      {
+        "role": "Music director",
+        "person": "p-john-bell"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-david-hyslop"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-rolt-smith"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-evan-ensign"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-tripp-phillips"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-scott-faris"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-mahlon-kruse"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-stephen-r-gruse"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-marian-dewitt"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-howard-tilkin"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-bethany-sortman"
+      },
+      {
+        "role": "Music director",
+        "person": "p-scott-cady"
+      },
+      {
+        "role": "Music director",
+        "person": "p-john-johnson"
+      },
+      {
+        "role": "Music director",
+        "person": "p-sue-anschutz"
+      }
+    ]
+  },
+  {
+    "id": "aladdin-p1",
+    "show": "aladdin",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "New Amsterdam Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2014-03-20",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Genie",
+        "person": "p-james-monroe-iglehart",
+        "character": "genie"
+      },
+      {
+        "role": "Aladdin",
+        "person": "p-adam-jacobs",
+        "character": "aladdin"
+      },
+      {
+        "role": "Jasmine",
+        "person": "p-courtney-reed",
+        "character": "jasmine"
+      },
+      {
+        "role": "Babkak",
+        "person": "p-brian-gonzales",
+        "character": "babkak"
+      },
+      {
+        "role": "Kassim",
+        "person": "p-brandon-o-neill",
+        "character": "kassim"
+      },
+      {
+        "role": "Iago",
+        "person": "p-don-darryl-rivera",
+        "character": "iago"
+      },
+      {
+        "role": "Omar",
+        "person": "p-jonathan-schwartz",
+        "character": "omar"
+      },
+      {
+        "role": "Attendant",
+        "person": "p-tia-altinay",
+        "character": "attendant"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-joshua-dela-cruz"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-stanley-martin"
+      },
+      {
+        "role": "Shop Owner",
+        "person": "p-bobby-pestka",
+        "character": "shop-owner"
+      },
+      {
+        "role": "Prince Abdullah",
+        "person": "p-jaz-sealey",
+        "character": "prince-abdullah"
+      },
+      {
+        "role": "Attendant",
+        "person": "p-marisha-wallace",
+        "character": "attendant"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-bud-weber"
+      },
+      {
+        "role": "Jafar",
+        "person": "p-jonathan-freeman",
+        "character": "jafar"
+      },
+      {
+        "role": "Henchman",
+        "person": "p-aaron-j-albano",
+        "character": "henchman"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-danny-troob"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-doug-besterman"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-ned-ginsburg"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-larry-hochman"
+      },
+      {
+        "role": "Music director",
+        "person": "p-aron-accurso"
+      },
+      {
+        "role": "Music director",
+        "person": "p-annbritt-duchateau"
+      },
+      {
+        "role": "Director",
+        "person": "p-casey-nicholaw"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-casey-nicholaw"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-john-macinnis"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-bob-crowley"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-gregg-barnes"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-natasha-katz"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-ken-travis"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-ros-coombes"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-bryan-johnson"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-sky-switser"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-aaron-spivey"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-alex-hawthorn"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-rachel-attridge"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-dana-burkart"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-stephen-stratton"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ken-elliott"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-clifford-schwartz"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jimmie-lee-smith"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jason-trubitt"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-holly-r-coombs"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-matthew-kurtis-lutz"
+      },
+      {
+        "role": "Music director",
+        "person": "p-michael-kosarin"
+      },
+      {
+        "role": "Music director",
+        "person": "p-jamie-schmidt"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-paul-atkinson"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-jack-galloway"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-mike-odam"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-tony-gayle"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-alexis-shorter"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-monica-a-cuoco"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-terrence-j-witter"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-bernadette-schoenborn"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-amy-steinman"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-monica-cuoco"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-ana-m-garcia"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-vanessa-dodgson-thomas"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-jimmie-lee-smith"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-kathleen-e-purvis"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-kim-vernace"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-alexis-shorter"
+      }
+    ]
+  },
+  {
+    "id": "mj-p1",
+    "show": "mj",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Neil Simon Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2022-02-01",
+    "closing": null,
+    "roster": [
+      {
+        "role": "MJ",
+        "person": "p-myles-frost",
+        "character": "mj"
+      },
+      {
+        "role": "Rachel",
+        "person": "p-whitney-bashor",
+        "character": "rachel"
+      },
+      {
+        "role": "Joseph Jackson",
+        "person": "p-quentin-earl-darrington",
+        "character": "joseph-jackson"
+      },
+      {
+        "role": "Tour Singer",
+        "person": "p-tavon-olds-sample",
+        "character": "tour-singer"
+      },
+      {
+        "role": "Little Michael",
+        "person": "p-walter-russell-iii",
+        "character": "little-michael"
+      },
+      {
+        "role": "Little Michael",
+        "person": "p-christian-wilson",
+        "character": "little-michael"
+      },
+      {
+        "role": "Tour Dancer",
+        "person": "p-raymond-baynard",
+        "character": "tour-dancer"
+      },
+      {
+        "role": "Little Marlon",
+        "person": "p-devin-trey-campbell",
+        "character": "little-marlon"
+      },
+      {
+        "role": "Tour Singer",
+        "person": "p-john-edwards",
+        "character": "tour-singer"
+      },
+      {
+        "role": "Tour Dancer",
+        "person": "p-kali-may-grinder",
+        "character": "tour-dancer"
+      },
+      {
+        "role": "Tour Singer",
+        "person": "p-apollo-levine",
+        "character": "tour-singer"
+      },
+      {
+        "role": "Tour Dancer",
+        "person": "p-michelle-mercedes",
+        "character": "tour-dancer"
+      },
+      {
+        "role": "Keith",
+        "person": "p-lamont-walker-ii",
+        "character": "keith"
+      },
+      {
+        "role": "Kate",
+        "person": "p-ayana-jackson",
+        "character": "kate"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-david-holcenberg"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-jason-michael-webb"
+      },
+      {
+        "role": "Music director",
+        "person": "p-jason-michael-webb"
+      },
+      {
+        "role": "Director",
+        "person": "p-christopher-wheeldon"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-christopher-wheeldon"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-michael-balderrama"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-martha-nichols"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-derek-mclane"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-paul-tazewell"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-natasha-katz"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-gareth-owen"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-peter-nigrini"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-erica-hemminger"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-christine-meyers"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-craig-stelzenmuller"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-russell-godwin"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-josh-liebert"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-kate-ducey"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-matthew-buttrey"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-mike-kaukl"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-grace-laubaucher"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-keanna-cherie"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-sarafina-bush"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-jahise-leboeuf"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-susan-makkoo"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-clare-wasserman"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-kirk-fitzgerald"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-brittany-bland"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-julia-jones"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-matthew-lacey"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-tiffany-n-robinson"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-bailey-saxe"
+      },
+      {
+        "role": "Music director",
+        "person": "p-michael-o-mitchell"
+      },
+      {
+        "role": "Music director",
+        "person": "p-sean-mayes"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-gregory-t-livoti"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-libby-unsworth"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-stormy-weather-lambert"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-sheryl-polancos"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-adriana-guerrero"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jereme-kyle-lewis"
+      }
+    ]
+  },
+  {
+    "id": "maybe-happy-ending-p1",
+    "show": "maybe-happy-ending",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Belasco Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2024-11-12",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Oliver",
+        "person": "p-darren-criss",
+        "character": "oliver"
+      },
+      {
+        "role": "Claire",
+        "person": "p-helen-j-shen",
+        "character": "claire"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-will-aronson"
+      },
+      {
+        "role": "Music director",
+        "person": "p-john-yun"
+      },
+      {
+        "role": "Music director",
+        "person": "p-eric-kang"
+      },
+      {
+        "role": "Director",
+        "person": "p-michael-arden"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-dane-laffrey"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-clint-ramos"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ben-stanton"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-peter-hylenski"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-george-reeve"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-dane-laffrey"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-matt-iacozza"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-michelle-ridley"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ken-elliott"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-dan-miele"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-david-forsee"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-kat-morrill"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-justin-scribner"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-sarah-g-harris"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-plato-seto"
+      },
+      {
+        "role": "Music director",
+        "person": "p-chris-gurr"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-joanne-pan"
+      }
+    ]
+  },
+  {
+    "id": "just-in-time-p1",
+    "show": "just-in-time",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Circle in the Square Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2025-04-26",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Bobby Darin",
+        "person": "p-jonathan-groff",
+        "character": "bobby-darin"
+      },
+      {
+        "role": "Sandra Dee",
+        "person": "p-erika-henningsen",
+        "character": "sandra-dee"
+      },
+      {
+        "role": "Connie Francis",
+        "person": "p-gracie-lawrence",
+        "character": "connie-francis"
+      },
+      {
+        "role": "Polly Walden",
+        "person": "p-michele-pawk",
+        "character": "polly-walden"
+      },
+      {
+        "role": "Siren",
+        "person": "p-christine-cornish",
+        "character": "siren"
+      },
+      {
+        "role": "Siren",
+        "person": "p-valeria-yamin",
+        "character": "siren"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-andrew-resnick"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-michael-thurber"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-shannon-lewis"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-grace-lemieux"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-michael-pesko"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-derek-mclane"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-catherine-zuber"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-justin-townsend"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-peter-hylenski"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-erica-hemminger"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-ac-gottlieb"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-wilburn-bonnell"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-ryan-cooper"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-dan-miele"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-savannah-wetzel"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-lily-cunicelli"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-erica-maholmes"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-scott-rowen"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-david-lurie-perret"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-janet-takami"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-alexander-allen"
+      },
+      {
+        "role": "Music director",
+        "person": "p-andrew-resnick"
+      },
+      {
+        "role": "Music director",
+        "person": "p-sinai-tabak"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-grace-laubacher"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-antonio-dibernardo"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jonah-yoder"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-david-lurie-perret"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-kelly-martindale"
+      },
+      {
+        "role": "Director",
+        "person": "p-alex-timbers"
+      }
+    ]
+  },
+  {
+    "id": "oh-mary-p1",
+    "show": "oh-mary",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Lyceum Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2024-07-11",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Mary Todd Lincoln",
+        "person": "p-cole-escola",
+        "character": "mary-todd-lincoln"
+      },
+      {
+        "role": "Mary's Husband",
+        "person": "p-conrad-ricamora",
+        "character": "mary-s-husband"
+      },
+      {
+        "role": "Mary's Teacher",
+        "person": "p-james-scully",
+        "character": "mary-s-teacher"
+      },
+      {
+        "role": "Mary's Chaperone",
+        "person": "p-bianca-leigh",
+        "character": "mary-s-chaperone"
+      },
+      {
+        "role": "Mary's Husband's Assistant",
+        "person": "p-tony-macht",
+        "character": "mary-s-husband-s-assistant"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-dots"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-holly-pierson"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-cha-see"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-daniel-kluger"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-drew-levy"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-ricky-lurie"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-bev-fremin"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-jaechelle-johnson"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-bryan-bauer"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-ryan-patrick-kane"
+      },
+      {
+        "role": "Music director",
+        "person": "p-adam-laird"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-jess-gersz"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-john-c-moore"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-lilian-mcgrail"
+      }
+    ]
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical-p1",
+    "show": "operation-mincemeat-a-new-musical",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "John Golden Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2025-03-20",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Charles Cholmondeley & others",
+        "person": "p-david-cumming",
+        "character": "charles-cholmondeley-others"
+      },
+      {
+        "role": "Jean Leslie & others",
+        "person": "p-claire-marie-hall",
+        "character": "jean-leslie-others"
+      },
+      {
+        "role": "Ewen Montagu & others",
+        "person": "p-natasha-hodgson",
+        "character": "ewen-montagu-others"
+      },
+      {
+        "role": "Hester Leggatt & others",
+        "person": "p-jak-malone",
+        "character": "hester-leggatt-others"
+      },
+      {
+        "role": "Johnny Bevan & others",
+        "person": "p-zoe-roberts",
+        "character": "johnny-bevan-others"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-steve-sidwell"
+      },
+      {
+        "role": "Music director",
+        "person": "p-joe-bunker"
+      },
+      {
+        "role": "Director",
+        "person": "p-robert-hastie"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-jenny-arnold"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-tara-young"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-paul-isaiah-isles"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-ben-stones"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-ben-stones"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-mark-henderson"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-mike-walker"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-frank-mccullough"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-stuart-stacy-cross"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-dan-walker"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-chris-cronin"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-james-stubbs"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-hanjie-chow"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-karen-moore"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-jeffrey-rodriguez"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-beau-lettieri"
+      },
+      {
+        "role": "Music director",
+        "person": "p-joshua-zecher-ross"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-jimmy-stubbs"
+      },
+      {
+        "role": "Music director",
+        "person": "p-charity-wicks"
+      }
+    ]
+  },
+  {
+    "id": "schmigadoon-p1",
+    "show": "schmigadoon",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Nederlander Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2026-04-20",
+    "closing": "2027-04-04",
+    "roster": [
+      {
+        "role": "Mildred Layton",
+        "person": "p-ana-gasteyer",
+        "character": "mildred-layton"
+      },
+      {
+        "role": "Helen Pritt",
+        "person": "p-kaleigh-cronin",
+        "character": "helen-pritt"
+      },
+      {
+        "role": "Carson",
+        "person": "p-miles-mcnicoll",
+        "character": "carson"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-doug-besterman"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-mike-morris"
+      },
+      {
+        "role": "Music director",
+        "person": "p-steven-malone"
+      },
+      {
+        "role": "Director",
+        "person": "p-christopher-gattelli"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-christopher-gattelli"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-lou-castro"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-scott-pask"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-linda-cho"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-donald-holder"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-walter-trarbach"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-orit-jacoby-carroll"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-patrick-bevilacqua"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-nick-solyom"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-karen-spahn"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-john-mckenna"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-stephen-carmody"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-frank-mccollough"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-kyu-shin"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-anton-volovsek"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-amanda-jenks"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-courtney-irizarry"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-sarah-woods"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-matthew-lacey"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-willie-porter"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-domue"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-rodrigo-herrera"
+      },
+      {
+        "role": "Music director",
+        "person": "p-kelly-thomas"
+      }
+    ]
+  },
+  {
+    "id": "the-book-of-mormon-p1",
+    "show": "the-book-of-mormon",
+    "number": 1,
+    "runType": "broadway",
+    "language": "en",
+    "venue": "Eugene O'Neill Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2011-03-24",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Elder Cunningham",
+        "person": "p-josh-gad",
+        "character": "elder-cunningham"
+      },
+      {
+        "role": "Elder Price",
+        "person": "p-andrew-rannells",
+        "character": "elder-price"
+      },
+      {
+        "role": "Nabulungi",
+        "person": "p-nikki-m-james",
+        "character": "nabulungi"
+      },
+      {
+        "role": "Elder McKinley",
+        "person": "p-rory-o-malley",
+        "character": "elder-mckinley"
+      },
+      {
+        "role": "Mafala Hatimbi",
+        "person": "p-michael-potts",
+        "character": "mafala-hatimbi"
+      },
+      {
+        "role": "Elder Price",
+        "person": "p-matt-doyle",
+        "character": "elder-price"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-larry-hochman"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-stephen-oremus"
+      },
+      {
+        "role": "Music director",
+        "person": "p-stephen-oremus"
+      },
+      {
+        "role": "Music director",
+        "person": "p-adam-ben-david"
+      },
+      {
+        "role": "Director",
+        "person": "p-casey-nicholaw"
+      },
+      {
+        "role": "Director",
+        "person": "p-trey-parker"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-casey-nicholaw"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-john-macinnis"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-scott-pask"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-ann-roth"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-brian-macdevitt"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-brian-ronan"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-frank-mccullough"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-matthew-pachtman"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-michelle-matland"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-benjamin-travis"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-ashley-hanson"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-lauren-alvarez"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-christine-peters"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-carl-faber"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-karen-moore"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-rachel-s-mccutchen"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-michael-p-zaleski"
+      },
+      {
+        "role": "Music director",
+        "person": "p-cian-mccarthy"
+      },
+      {
+        "role": "Music director",
+        "person": "p-justin-mendoza"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-cody-spencer"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-jennifer-schriever"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-sara-cox-bradley"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-mandisa-reed"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-rachel-zack"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-martha-donaldson"
+      },
+      {
+        "role": "Music director",
+        "person": "p-remy-kurs"
+      }
+    ]
+  },
+  {
+    "id": "six-the-musical-p1",
+    "show": "six-the-musical",
+    "number": 1,
+    "runType": "resident",
+    "language": "en",
+    "venue": "Brooks Atkinson Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2021-10-03",
+    "closing": "2027-01-03",
+    "roster": [
+      {
+        "role": "Catherine of Aragon",
+        "person": "p-adrianna-hicks",
+        "character": "catherine-of-aragon"
+      },
+      {
+        "role": "Anne Boleyn",
+        "person": "p-andrea-macasaet",
+        "character": "anne-boleyn"
+      },
+      {
+        "role": "Anna of Cleves",
+        "person": "p-brittney-mack",
+        "character": "anna-of-cleves"
+      },
+      {
+        "role": "Jane Seymour",
+        "person": "p-abby-mueller",
+        "character": "jane-seymour"
+      },
+      {
+        "role": "Katherine Howard",
+        "person": "p-samantha-pauly",
+        "character": "katherine-howard"
+      },
+      {
+        "role": "Catherine Parr",
+        "person": "p-anna-uzele",
+        "character": "catherine-parr"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-tom-curran"
+      },
+      {
+        "role": "Music director",
+        "person": "p-julia-schade"
+      },
+      {
+        "role": "Music director",
+        "person": "p-elizabeth-doran"
+      },
+      {
+        "role": "Director",
+        "person": "p-lucy-moss"
+      },
+      {
+        "role": "Director",
+        "person": "p-jamie-armitage"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-carrie-anne-ingrouille"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-eliza-ohman"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-emma-bailey"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-gabriella-slade"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-tim-deiling"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-paul-gatehouse"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-yu-hsuan-chen"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-lisa-zinni"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-paul-toben"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-timothy-reed"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-josh-millican"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-amanda-jenks"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-victoria-bain"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-joseph-haggerty"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-bonnie-panson"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-christine-m-daly"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-rachel-a-zucker"
+      },
+      {
+        "role": "Music director",
+        "person": "p-alex-goldie-golden"
+      },
+      {
+        "role": "Music director",
+        "person": "p-kerianne-brennan"
+      },
+      {
+        "role": "Music director",
+        "person": "p-meghann-zervoulis-bate"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-elizabeth-racanelli"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-taylor-mcmahon"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-courtney-irizarry"
+      }
+    ]
+  },
+  {
+    "id": "waitress-p1",
+    "show": "waitress",
+    "number": 1,
+    "runType": "resident",
+    "language": "en",
+    "venue": "Ethel Barrymore Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2021-09-02",
+    "closing": "2021-12-20",
+    "roster": [
+      {
+        "role": "Jenna",
+        "person": "p-sara-bareilles",
+        "character": "jenna"
+      },
+      {
+        "role": "Cal",
+        "person": "p-eric-anderson",
+        "character": "cal"
+      },
+      {
+        "role": "Becky",
+        "person": "p-charity-angel-dawson",
+        "character": "becky"
+      },
+      {
+        "role": "Ogie",
+        "person": "p-christopher-fitzgerald",
+        "character": "ogie"
+      },
+      {
+        "role": "Dr. Pomatter",
+        "person": "p-drew-gehling",
+        "character": "dr-pomatter"
+      },
+      {
+        "role": "Dawn",
+        "person": "p-caitlin-houlahan",
+        "character": "dawn"
+      },
+      {
+        "role": "Earl",
+        "person": "p-joe-tippett",
+        "character": "earl"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-tyrone-davis-jr"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-max-kumangai"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-sara-bareilles"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-the-waitress-band"
+      },
+      {
+        "role": "Director",
+        "person": "p-diane-paulus"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-lorin-latarro"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-abbey-o-brien"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-scott-pask"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-suttirat-anne-larlarb"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ken-billington"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-jonathan-deans"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-orit-jacoby-carroll"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-aaron-porter"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-mitchell-fenton"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-mike-tracey"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-thomas-j-gates"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-becky-fleming"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-anita-shastri"
+      },
+      {
+        "role": "Music director",
+        "person": "p-nadia-digiallonardo"
+      },
+      {
+        "role": "Music director",
+        "person": "p-adam-kaufman"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3",
+    "show": "wicked",
+    "number": 3,
+    "runType": "resident",
+    "language": "en",
+    "venue": "Gershwin Theatre",
+    "city": "New York",
+    "country": "US",
+    "opening": "2003-10-30",
+    "closing": null,
+    "roster": [
+      {
+        "role": "Glinda",
+        "person": "p-kristin-chenoweth",
+        "character": "glinda"
+      },
+      {
+        "role": "Elphaba",
+        "person": "p-idina-menzel",
+        "character": "elphaba"
+      },
+      {
+        "role": "Fiyero",
+        "person": "p-norbert-leo-butz",
+        "character": "fiyero"
+      },
+      {
+        "role": "Nessarose",
+        "person": "p-michelle-federer",
+        "character": "nessarose"
+      },
+      {
+        "role": "The Wonderful Wizard of Oz",
+        "person": "p-joel-grey",
+        "character": "the-wonderful-wizard-of-oz"
+      },
+      {
+        "role": "Madame Morrible",
+        "person": "p-carole-shelley",
+        "character": "madame-morrible"
+      },
+      {
+        "role": "Doctor Dillamond",
+        "person": "p-michael-x-martin",
+        "character": "doctor-dillamond"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-nova-bergeron"
+      },
+      {
+        "role": "Ensemble",
+        "person": "p-david-hull"
+      },
+      {
+        "role": "Boq",
+        "person": "p-ben-liebert",
+        "character": "boq"
+      },
+      {
+        "role": "Chistery",
+        "person": "p-chase-madigan",
+        "character": "chistery"
+      },
+      {
+        "role": "Music director",
+        "person": "p-stephen-oremus"
+      },
+      {
+        "role": "Orchestrator",
+        "person": "p-william-david-brohn"
+      },
+      {
+        "role": "Director",
+        "person": "p-joe-mantello"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-wayne-cilento"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-corinne-mcfadden"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-eugene-lee"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-susan-hilferty"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-kenneth-posner"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-tony-meola"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-elaine-j-mccarthy"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-edward-pierce"
+      },
+      {
+        "role": "Scenic designer",
+        "person": "p-nick-francone"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-michael-sharpe"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-ken-mooney"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-maiko-matsushima"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-amanda-whidden"
+      },
+      {
+        "role": "Costume designer",
+        "person": "p-amy-clark"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-karen-spahn"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-warren-flynn"
+      },
+      {
+        "role": "Lighting designer",
+        "person": "p-ben-stanton"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-kai-harada"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-jenny-lee"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-michael-patterson"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-jacob-daniel-pinholster"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-erica-schwartz"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-chris-jamros"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-bess-marie-glorioso"
+      },
+      {
+        "role": "Music director",
+        "person": "p-alex-lacamoire"
+      },
+      {
+        "role": "Music director",
+        "person": "p-robert-billig"
+      },
+      {
+        "role": "Music director",
+        "person": "p-dominick-amendum"
+      },
+      {
+        "role": "Music director",
+        "person": "p-bryan-perri"
+      },
+      {
+        "role": "Music director",
+        "person": "p-dan-micciche"
+      },
+      {
+        "role": "Music director",
+        "person": "p-ben-cohn"
+      },
+      {
+        "role": "Choreographer",
+        "person": "p-corinne-mcfadden-herrera"
+      },
+      {
+        "role": "Sound designer",
+        "person": "p-zach-williamson"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-anne-mcmills"
+      },
+      {
+        "role": "Projection designer",
+        "person": "p-shawn-e-boyle"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-timothy-semon"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-brian-bogin"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-mark-gordon"
+      },
+      {
+        "role": "Stage manager",
+        "person": "p-gregg-n-kirsopp"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-marybeth-abel"
+      },
+      {
+        "role": "Production stage manager",
+        "person": "p-peyton-taylor-becker"
+      },
+      {
+        "role": "Music director",
+        "person": "p-david-evans"
+      },
+      {
+        "role": "Music director",
+        "person": "p-david-pepin"
+      }
+    ]
+  }
+]

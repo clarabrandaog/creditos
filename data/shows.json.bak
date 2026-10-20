@@ -1,0 +1,760 @@
+[
+  {
+    "id": "wicked",
+    "title": "Wicked",
+    "originalLanguage": "en",
+    "premiereYear": 2003,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "elphaba",
+        "name": "Elphaba"
+      },
+      {
+        "id": "glinda",
+        "name": "Glinda"
+      },
+      {
+        "id": "fiyero",
+        "name": "Fiyero"
+      },
+      {
+        "id": "wizard",
+        "name": "The Wizard"
+      }
+    ],
+    "synopsis": "The untold story of the witches of Oz, before Dorothy arrived.",
+    "composers": [
+      "p-stephen-schwartz"
+    ]
+  },
+  {
+    "id": "hamilton",
+    "title": "Hamilton",
+    "originalLanguage": "en",
+    "premiereYear": 2015,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Hip-hop",
+    "characters": [
+      {
+        "id": "hamilton",
+        "name": "Alexander Hamilton"
+      },
+      {
+        "id": "burr",
+        "name": "Aaron Burr"
+      },
+      {
+        "id": "eliza",
+        "name": "Eliza Hamilton"
+      },
+      {
+        "id": "angelica",
+        "name": "Angelica Schuyler"
+      }
+    ],
+    "synopsis": "The life of American Founding Father Alexander Hamilton, told through hip-hop and R&B.",
+    "composers": [
+      "p-lin-manuel-miranda"
+    ]
+  },
+  {
+    "id": "the-lion-king",
+    "title": "The Lion King",
+    "originalLanguage": "en",
+    "premiereYear": 1997,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      {
+        "id": "simba",
+        "name": "Simba"
+      },
+      {
+        "id": "nala",
+        "name": "Nala"
+      },
+      {
+        "id": "scar",
+        "name": "Scar"
+      },
+      {
+        "id": "mufasa",
+        "name": "Mufasa"
+      }
+    ],
+    "synopsis": "Disney's animated epic brought to life with puppetry, African rhythms, and Elton John's score.",
+    "composers": [
+      "p-elton-john",
+      "p-tim-rice"
+    ]
+  },
+  {
+    "id": "chicago",
+    "title": "Chicago",
+    "originalLanguage": "en",
+    "premiereYear": 1975,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Jazz",
+    "characters": [
+      {
+        "id": "roxie",
+        "name": "Roxie Hart"
+      },
+      {
+        "id": "velma",
+        "name": "Velma Kelly"
+      },
+      {
+        "id": "billy",
+        "name": "Billy Flynn"
+      },
+      {
+        "id": "mama",
+        "name": "Mama Morton"
+      }
+    ],
+    "synopsis": "Two murderesses vie for fame on the Jazz Age vaudeville stage while awaiting trial.",
+    "composers": [
+      "p-john-kander",
+      "p-fred-ebb"
+    ]
+  },
+  {
+    "id": "hadestown",
+    "title": "Hadestown",
+    "originalLanguage": "en",
+    "premiereYear": 2019,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Folk",
+    "characters": [
+      {
+        "id": "orpheus",
+        "name": "Orpheus"
+      },
+      {
+        "id": "eurydice",
+        "name": "Eurydice"
+      },
+      {
+        "id": "hades",
+        "name": "Hades"
+      },
+      {
+        "id": "persephone",
+        "name": "Persephone"
+      }
+    ],
+    "synopsis": "Anaïs Mitchell's folk opera retelling of the Orpheus and Eurydice myth set in a Depression-era underworld.",
+    "composers": [
+      "p-anais-mitchell"
+    ]
+  },
+  {
+    "id": "and-juliet",
+    "title": "& Juliet",
+    "originalLanguage": "en",
+    "premiereYear": 2022,
+    "origin": "adaptation",
+    "jukebox": true,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      {
+        "id": "juliet",
+        "name": "Juliet"
+      },
+      {
+        "id": "may",
+        "name": "May"
+      },
+      {
+        "id": "anne",
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": "francois",
+        "name": "François Du Bois"
+      }
+    ],
+    "synopsis": "What if Juliet didn't die? A pop-powered sequel to Romeo and Juliet built from Max Martin hits.",
+    "composers": [
+      "p-max-martin"
+    ]
+  },
+  {
+    "id": "the-outsiders",
+    "title": "The Outsiders",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Rock",
+    "characters": [
+      {
+        "id": "ponyboy",
+        "name": "Ponyboy Curtis"
+      },
+      {
+        "id": "johnny",
+        "name": "Johnny Cade"
+      },
+      {
+        "id": "dally",
+        "name": "Dallas Winston"
+      },
+      {
+        "id": "soda",
+        "name": "Sodapop Curtis"
+      }
+    ],
+    "synopsis": "S.E. Hinton's novel of greasers and Socs, adapted for Broadway with a soaring rock score.",
+    "composers": [
+      "p-j-taylor-moore"
+    ]
+  },
+  {
+    "id": "suffs",
+    "title": "Suffs",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Historical",
+    "characters": [
+      {
+        "id": "alice",
+        "name": "Alice Paul"
+      },
+      {
+        "id": "carrie",
+        "name": "Carrie Chapman Catt"
+      },
+      {
+        "id": "ida",
+        "name": "Ida B. Wells"
+      },
+      {
+        "id": "lucy",
+        "name": "Lucy Burns"
+      }
+    ],
+    "synopsis": "The fight for women's suffrage in America, told through Shaina Taub's score and book.",
+    "composers": [
+      "p-shaina-taub"
+    ]
+  },
+  {
+    "id": "death-becomes-her",
+    "title": "Death Becomes Her",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "adaptation",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Comedy",
+    "characters": [
+      {
+        "id": "madeline",
+        "name": "Madeline Ashton"
+      },
+      {
+        "id": "helen",
+        "name": "Helen Sharp"
+      },
+      {
+        "id": "ernest",
+        "name": "Ernest Munk"
+      }
+    ],
+    "synopsis": "The campy 1992 film about rival actresses and immortality, reborn as a Broadway musical comedy.",
+    "composers": [
+      "p-chris-tin",
+      "p-nell-benjamin"
+    ]
+  },
+  {
+    "id": "moulin-rouge",
+    "title": "Moulin Rouge! The Musical",
+    "originalLanguage": "en",
+    "premiereYear": 2019,
+    "origin": "adaptation",
+    "jukebox": true,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Pop",
+    "characters": [
+      {
+        "id": "christian",
+        "name": "Christian"
+      },
+      {
+        "id": "satine",
+        "name": "Satine"
+      },
+      {
+        "id": "duke",
+        "name": "The Duke"
+      },
+      {
+        "id": "zidler",
+        "name": "Harold Zidler"
+      }
+    ],
+    "synopsis": "Baz Luhrmann's Parisian love story reimagined as a jukebox musical of pop anthems.",
+    "composers": [
+      "p-elton-john"
+    ]
+  },
+  {
+    "id": "aladdin",
+    "title": "Aladdin",
+    "originalLanguage": "en",
+    "premiereYear": 2014,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "genie",
+        "name": "Genie"
+      },
+      {
+        "id": "aladdin",
+        "name": "Aladdin"
+      },
+      {
+        "id": "jasmine",
+        "name": "Jasmine"
+      },
+      {
+        "id": "babkak",
+        "name": "Babkak"
+      },
+      {
+        "id": "kassim",
+        "name": "Kassim"
+      },
+      {
+        "id": "iago",
+        "name": "Iago"
+      },
+      {
+        "id": "omar",
+        "name": "Omar"
+      },
+      {
+        "id": "attendant",
+        "name": "Attendant"
+      },
+      {
+        "id": "shop-owner",
+        "name": "Shop Owner"
+      },
+      {
+        "id": "prince-abdullah",
+        "name": "Prince Abdullah"
+      },
+      {
+        "id": "jafar",
+        "name": "Jafar"
+      },
+      {
+        "id": "henchman",
+        "name": "Henchman"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-alan-menken",
+      "p-howard-ashman",
+      "p-tim-rice"
+    ]
+  },
+  {
+    "id": "mj",
+    "title": "MJ",
+    "originalLanguage": "en",
+    "premiereYear": 2022,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "mj",
+        "name": "MJ"
+      },
+      {
+        "id": "rachel",
+        "name": "Rachel"
+      },
+      {
+        "id": "joseph-jackson",
+        "name": "Joseph Jackson"
+      },
+      {
+        "id": "tour-singer",
+        "name": "Tour Singer"
+      },
+      {
+        "id": "little-michael",
+        "name": "Little Michael"
+      },
+      {
+        "id": "tour-dancer",
+        "name": "Tour Dancer"
+      },
+      {
+        "id": "little-marlon",
+        "name": "Little Marlon"
+      },
+      {
+        "id": "keith",
+        "name": "Keith"
+      },
+      {
+        "id": "kate",
+        "name": "Kate"
+      }
+    ],
+    "synopsis": "",
+    "composers": []
+  },
+  {
+    "id": "maybe-happy-ending",
+    "title": "Maybe Happy Ending",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "oliver",
+        "name": "Oliver"
+      },
+      {
+        "id": "claire",
+        "name": "Claire"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-will-aronson",
+      "p-hue-park"
+    ]
+  },
+  {
+    "id": "just-in-time",
+    "title": "Just In Time",
+    "originalLanguage": "en",
+    "premiereYear": 2025,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "bobby-darin",
+        "name": "Bobby Darin"
+      },
+      {
+        "id": "sandra-dee",
+        "name": "Sandra Dee"
+      },
+      {
+        "id": "connie-francis",
+        "name": "Connie Francis"
+      },
+      {
+        "id": "polly-walden",
+        "name": "Polly Walden"
+      },
+      {
+        "id": "siren",
+        "name": "Siren"
+      }
+    ],
+    "synopsis": "",
+    "composers": []
+  },
+  {
+    "id": "oh-mary",
+    "title": "Oh, Mary!",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "mary-todd-lincoln",
+        "name": "Mary Todd Lincoln"
+      },
+      {
+        "id": "mary-s-husband",
+        "name": "Mary's Husband"
+      },
+      {
+        "id": "mary-s-teacher",
+        "name": "Mary's Teacher"
+      },
+      {
+        "id": "mary-s-chaperone",
+        "name": "Mary's Chaperone"
+      },
+      {
+        "id": "mary-s-husband-s-assistant",
+        "name": "Mary's Husband's Assistant"
+      }
+    ],
+    "synopsis": "",
+    "composers": []
+  },
+  {
+    "id": "operation-mincemeat-a-new-musical",
+    "title": "Operation Mincemeat: A New Musical",
+    "originalLanguage": "en",
+    "premiereYear": 2025,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "charles-cholmondeley-others",
+        "name": "Charles Cholmondeley & others"
+      },
+      {
+        "id": "jean-leslie-others",
+        "name": "Jean Leslie & others"
+      },
+      {
+        "id": "ewen-montagu-others",
+        "name": "Ewen Montagu & others"
+      },
+      {
+        "id": "hester-leggatt-others",
+        "name": "Hester Leggatt & others"
+      },
+      {
+        "id": "johnny-bevan-others",
+        "name": "Johnny Bevan & others"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-david-cumming",
+      "p-felix-hagan",
+      "p-natasha-hodgson",
+      "p-zoe-roberts"
+    ]
+  },
+  {
+    "id": "schmigadoon",
+    "title": "Schmigadoon!",
+    "originalLanguage": "en",
+    "premiereYear": 2026,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "mildred-layton",
+        "name": "Mildred Layton"
+      },
+      {
+        "id": "helen-pritt",
+        "name": "Helen Pritt"
+      },
+      {
+        "id": "carson",
+        "name": "Carson"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-cinco-paul"
+    ]
+  },
+  {
+    "id": "the-book-of-mormon",
+    "title": "The Book of Mormon",
+    "originalLanguage": "en",
+    "premiereYear": 2011,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "elder-cunningham",
+        "name": "Elder Cunningham"
+      },
+      {
+        "id": "elder-price",
+        "name": "Elder Price"
+      },
+      {
+        "id": "nabulungi",
+        "name": "Nabulungi"
+      },
+      {
+        "id": "elder-mckinley",
+        "name": "Elder McKinley"
+      },
+      {
+        "id": "mafala-hatimbi",
+        "name": "Mafala Hatimbi"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-matt-stone",
+      "p-robert-lopez",
+      "p-trey-parker"
+    ]
+  },
+  {
+    "id": "six-the-musical",
+    "title": "SIX: The Musical",
+    "originalLanguage": "en",
+    "premiereYear": 2021,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "catherine-of-aragon",
+        "name": "Catherine of Aragon"
+      },
+      {
+        "id": "anne-boleyn",
+        "name": "Anne Boleyn"
+      },
+      {
+        "id": "anna-of-cleves",
+        "name": "Anna of Cleves"
+      },
+      {
+        "id": "jane-seymour",
+        "name": "Jane Seymour"
+      },
+      {
+        "id": "katherine-howard",
+        "name": "Katherine Howard"
+      },
+      {
+        "id": "catherine-parr",
+        "name": "Catherine Parr"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-lucy-moss",
+      "p-toby-marlow"
+    ]
+  },
+  {
+    "id": "waitress",
+    "title": "Waitress",
+    "originalLanguage": "en",
+    "premiereYear": 2021,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "jenna",
+        "name": "Jenna"
+      },
+      {
+        "id": "cal",
+        "name": "Cal"
+      },
+      {
+        "id": "becky",
+        "name": "Becky"
+      },
+      {
+        "id": "ogie",
+        "name": "Ogie"
+      },
+      {
+        "id": "dr-pomatter",
+        "name": "Dr. Pomatter"
+      },
+      {
+        "id": "dawn",
+        "name": "Dawn"
+      },
+      {
+        "id": "earl",
+        "name": "Earl"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-sara-bareilles"
+    ]
+  }
+]

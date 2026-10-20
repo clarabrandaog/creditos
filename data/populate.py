@@ -450,7 +450,13 @@ STAFF_MAP = [
     (r"production stage manager", "Production stage manager"),
     (r"stage manager", "Stage manager"),
     (r"^direct(ed by|or)\b|^directed", "Director"),
+    (r"aerial choreograph", "Aerial choreographer"),
     (r"choreograph", "Choreographer"),
+    (r"hair and wig|wig design", "Hair and wig designer"),
+    (r"make-?up design", "Make-up designer"),
+    (r"fight direct", "Fight director"),
+    (r"^dance captain", "Dance captain"),
+    (r"^fight captain", "Fight captain"),
     (r"music(al)? direct|conducted|conductor", "Music director"),
     (r"scenic|set design", "Scenic designer"),
     (r"costume design", "Costume designer"),
@@ -560,23 +566,79 @@ def _staff_label(tokens, i):
         txt = t[1]
         if re.fullmatch(r"[,&/;\s]*|and", txt) or len(txt.strip(" :")) < 2:
             continue
-        f = fold(txt.strip(" :"))
+        f = fold(txt.strip(" :;,"))
         if txt.endswith(":") or f.endswith(" by") or any(re.search(rx, f) for rx, _ in STAFF_MAP) \
                 or COMPOSER_LABEL.fullmatch(f):
-            return txt.strip(" :")
+            return txt.strip(" :;,")
         if txt.startswith("("):
             continue
         return None
     return None
 
 
+NOTE_CELL = re.compile(r"^(broadway debut|recorded voice only|understudy|alternate|standby|swing)$", re.I)
+CUT_CELL = re.compile(r"cut during previews", re.I)
+END_MARKERS = ("Songs", "Awards", "Statistics")
+HEADINGS = {"opening night cast", "current cast", "replacements", "production staff", "swings and understudies",
+            "understudies", "swings", "people", "cast", "staff"}
+
+
+def _staff_role(label):
+    """Map an IBDB credit label ('Associate Scenic Design by') to a roster role."""
+    f = fold(label)
+    pre = re.match(r"^(associate|assistant)\s+(.*)$", f)
+    prefix, f = (pre.group(1).capitalize() + " ", pre.group(2)) if pre else ("", f)
+    for rx, role in STAFF_MAP:
+        if re.search(rx, f):
+            return prefix + (role[0].lower() + role[1:] if prefix else role)
+    return None
+
+
+def _cast_rows(t, cells):
+    """Cast rows for one person. 'cells' are the text cells that follow the name."""
+    cut = []
+    for c in cells:
+        if c.endswith(":") or c.startswith(";"):
+            break
+        cut.append(c)
+    joined = " | ".join(cut)
+    m = RANGE_RE.search(joined)
+    rows = []
+    if m:  # layout with a date range: Name / Role / Mar 22, 2019 - Jan 12, 2022 / note
+        segs = [x.strip() for x in re.split(r"[|/]", joined[:m.start()]) if x.strip()]
+        segs = [x for x in segs if not re.search(r"debut", x, re.I)]
+        if not segs or segs[-1].endswith("(") or segs[-1] == ")":
+            return rows  # the "Theatre (Apr 17, 2019 - Present)" line is not a cast row
+        note = joined[m.end():].strip(" |/")
+        note = re.split(r"\s\|\s", note)[0] if note else ""
+        start = None if m.group(1) == "?" else d_iso(m.group(1))
+        end = None if m.group(2) in ("?", "Present") else d_iso(m.group(2))
+        rows.append({"name": t[1], "ibdb": t[2], "role": segs[-1], "start": start, "end": end, "note": note})
+        return rows
+    # layout without dates (cast that has not changed): Name / Role / Role / ...
+    roles = []
+    for c in cut:
+        if CUT_CELL.search(c):
+            if roles:
+                roles.pop()  # the role just before this note was cut
+            continue
+        if NOTE_CELL.match(c) or c.startswith("("):
+            continue
+        roles.append(c)
+    for r in roles:
+        rows.append({"name": t[1], "ibdb": t[2], "role": r, "start": None, "end": None, "note": ""})
+    return rows
+
+
 def parse_ibdb(html):
     tk = _Tokens()
     tk.feed(html)
     tk.flush()
-    tokens = tk.tokens
-    page_title = re.split(r"\s[–—\-]\s|\s\|\s", tk.title.strip())[0].strip()
-    title = page_title or tk.h1 or None
+    page_title = re.split(r"\s[\u2013\u2014\-]\s|\s\|\s", tk.title.strip())[0].strip()
+    return parse_tokens(tk.tokens, page_title or tk.h1 or None)
+
+
+def parse_tokens(tokens, title):
     out = {
         "title": title,
         "opening": d_iso(_field(tokens, "Opening Date")),
@@ -584,7 +646,7 @@ def parse_ibdb(html):
         "first_preview": d_iso(_field(tokens, r"1st Preview")),
         "previews": None,
         "venue": next((t[1] for t in tokens if t[0] == "th"), None),
-        "category": next((t[1] for t in tokens[:60] if t[0] == "t" and re.search(r"\b(Original|Revival)\b", t[1])
+        "category": next((t[1] for t in tokens[:60] if t[0] == "t" and re.search(r"(Original|Revival)", t[1])
                           and len(t[1]) < 60), None),
         "cast": [], "staff": [], "composers": [],
     }
@@ -592,45 +654,46 @@ def parse_ibdb(html):
     if pv and re.match(r"\d+", pv.replace(",", "")):
         out["previews"] = int(re.match(r"\d+", pv.replace(",", "")).group(0))
 
+    first_p = next((i for i, t in enumerate(tokens) if t[0] == "p"), None)
+    if first_p is None:
+        return out, tokens
+    end = next((j for j in range(first_p, len(tokens))
+                if tokens[j][0] == "t" and tokens[j][1] in END_MARKERS), len(tokens))
+
     seen_cast, seen_staff = set(), set()
-    for i, t in enumerate(tokens):
+    for i in range(first_p, end):
+        t = tokens[i]
         if t[0] != "p":
             continue
-        gathered = []
-        for u in tokens[i + 1:i + 9]:
+        cells = []
+        for u in tokens[i + 1:end]:
             if u[0] != "t":
                 break
-            gathered.append(u[1])
-        joined = " | ".join(gathered)
-        m = RANGE_RE.search(joined)
-        if m:
-            before = joined[:m.start()]
-            segs = [s.strip() for s in re.split(r"[|/]", before) if s.strip()]
-            segs = [s for s in segs if not re.search(r"debut", s, re.I)]
-            if not segs or segs[-1].endswith("(") or segs[-1] == ")":
-                continue  # the "Theatre (Apr 17, 2019 - Present)" line is not a cast row
-            note = joined[m.end():].strip(" |/")
-            note = re.split(r"\s\|\s", note)[0] if note else ""
-            start = None if m.group(1) == "?" else d_iso(m.group(1))
-            end = None if m.group(2) in ("?", "Present") else d_iso(m.group(2))
-            key = (t[2], fold(segs[-1]), start, end)
-            if key in seen_cast:
-                continue
-            seen_cast.add(key)
-            out["cast"].append({"name": t[1], "ibdb": t[2], "role": segs[-1], "start": start, "end": end, "note": note})
-        else:
-            label = _staff_label(tokens, i)
-            if not label:
-                continue
-            f = fold(label)
-            if COMPOSER_LABEL.fullmatch(f):
-                if (t[1], t[2]) not in out["composers"]:
-                    out["composers"].append((t[1], t[2]))
-                continue
-            role = next((r for rx, r in STAFF_MAP if re.search(rx, f)), None)
-            if role and (t[2], role) not in seen_staff:
-                seen_staff.add((t[2], role))
-                out["staff"].append({"name": t[1], "ibdb": t[2], "role": role})
+            cells.append(u[1])
+            if len(cells) >= 8:
+                break
+        first = cells[0] if cells else ""
+        credit_like = (not first or fold(first) in HEADINGS or re.match(r"^[,;()&]", first) or fold(first) == "and" or fold(first).startswith("and ")
+                       or first.endswith(":") or re.search(r"\bby$", first, re.I))
+        if not credit_like:
+            for row in _cast_rows(t, cells):
+                key = (row["ibdb"], fold(row["role"]), row["start"], row["end"])
+                if key not in seen_cast:
+                    seen_cast.add(key)
+                    out["cast"].append(row)
+            continue
+        label = _staff_label(tokens, i)
+        if not label:
+            continue
+        f = fold(label)
+        if COMPOSER_LABEL.fullmatch(f):
+            if (t[1], t[2]) not in out["composers"]:
+                out["composers"].append((t[1], t[2]))
+            continue
+        role = _staff_role(label)
+        if role and (t[2], role) not in seen_staff:
+            seen_staff.add((t[2], role))
+            out["staff"].append({"name": t[1], "ibdb": t[2], "role": role})
     return out, tokens
 
 

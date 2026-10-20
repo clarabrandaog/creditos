@@ -1,4 +1,4 @@
- [
+[
   {
     "id": "wicked-p1-7849",
     "production": "wicked-p1",
@@ -554,23 +554,6 @@
     "changes": []
   },
   {
-    "id": "chicago-p2-1997-02-11",
-    "production": "chicago-p2",
-    "number": null,
-    "date": "1997-02-11",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "Shubert Theatre (",
-        "person": "p-rocker-verastique",
-        "replaces": null,
-        "type": "replacement"
-      }
-    ]
-  },
-  {
     "id": "chicago-p2-2026-09-07",
     "production": "chicago-p2",
     "number": null,
@@ -672,23 +655,6 @@
     "preview": false,
     "matinee": null,
     "changes": []
-  },
-  {
-    "id": "mj-p1-2022-03-15",
-    "production": "mj-p1",
-    "number": null,
-    "date": "2022-03-15",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "(",
-        "person": "p-kali-may-grinder",
-        "replaces": null,
-        "type": "replacement"
-      }
-    ]
   },
   {
     "id": "mj-p1-2026-10-06",
@@ -908,46 +874,6 @@
     "changes": []
   },
   {
-    "id": "operation-mincemeat-a-new-musical-p1-2025-03-21",
-    "production": "operation-mincemeat-a-new-musical-p1",
-    "number": null,
-    "date": "2025-03-21",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "(",
-        "person": "p-joshua-zecher-ross",
-        "replaces": "p-mary-ann-mcsweeney",
-        "type": "replacement"
-      },
-      {
-        "role": "(",
-        "person": "p-amanda-morton",
-        "replaces": "p-mary-ann-mcsweeney",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
-    "id": "operation-mincemeat-a-new-musical-p1-2026-03-23",
-    "production": "operation-mincemeat-a-new-musical-p1",
-    "number": null,
-    "date": "2026-03-23",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "(",
-        "person": "p-robert-ariza",
-        "replaces": "p-mary-ann-mcsweeney",
-        "type": "replacement"
-      }
-    ]
-  },
-  {
     "id": "schmigadoon-p1-1",
     "production": "schmigadoon-p1",
     "number": 1,
@@ -966,23 +892,6 @@
     "preview": false,
     "matinee": null,
     "changes": []
-  },
-  {
-    "id": "schmigadoon-p1-2026-05-07",
-    "production": "schmigadoon-p1",
-    "number": null,
-    "date": "2026-05-07",
-    "time": null,
-    "preview": false,
-    "matinee": null,
-    "changes": [
-      {
-        "role": "(",
-        "person": "p-antonio-marion",
-        "replaces": null,
-        "type": "replacement"
-      }
-    ]
   },
   {
     "id": "schmigadoon-p1-2026-09-08",
@@ -1054,5 +963,269 @@
         "type": "replacement"
       }
     ]
+  },
+  {
+    "id": "six-the-musical-p1-1",
+    "production": "six-the-musical-p1",
+    "number": 1,
+    "date": "2020-02-13",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "six-the-musical-p1-48",
+    "production": "six-the-musical-p1",
+    "number": 48,
+    "date": "2021-10-03",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "six-the-musical-p1-2022-03-14",
+    "production": "six-the-musical-p1",
+    "number": null,
+    "date": "2022-03-14",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Jane Seymour",
+        "person": "p-keri-rene-fuller",
+        "replaces": null,
+        "type": "replacement"
+      },
+      {
+        "role": "Catherine Parr",
+        "person": "p-joy-woods",
+        "replaces": "p-anna-uzele",
+        "type": "standby"
+      }
+    ]
+  },
+  {
+    "id": "six-the-musical-p1-2026-10-05",
+    "production": "six-the-musical-p1",
+    "number": null,
+    "date": "2026-10-05",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Catherine of Aragon",
+        "person": "p-najah-hetsberger",
+        "replaces": "p-adrianna-hicks",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "waitress-p1-1",
+    "production": "waitress-p1",
+    "number": 1,
+    "date": "2021-09-02",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "waitress-p1-2021-10-05",
+    "production": "waitress-p1",
+    "number": null,
+    "date": "2021-10-05",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Dawn",
+        "person": "p-ashley-blanchet",
+        "replaces": "p-caitlin-houlahan",
+        "type": "replacement"
+      },
+      {
+        "role": "Becky",
+        "person": "p-maiesha-mcqueen",
+        "replaces": "p-charity-angel-dawson",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "waitress-p1-2021-12-13",
+    "production": "waitress-p1",
+    "number": null,
+    "date": "2021-12-13",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Cal",
+        "person": "p-benny-elledge",
+        "replaces": "p-eric-anderson",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3-1",
+    "production": "wicked-p3",
+    "number": 1,
+    "date": "2003-10-08",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p3-26",
+    "production": "wicked-p3",
+    "number": 26,
+    "date": "2003-10-30",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "wicked-p3-2003-11-25",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2003-11-25",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Fiyero",
+        "person": "p-kristoffer-cusick",
+        "replaces": "p-norbert-leo-butz",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "wicked-p3-2026-08-17",
+    "production": "wicked-p3",
+    "number": null,
+    "date": "2026-08-17",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Ensemble",
+        "person": "p-reagan-davidson",
+        "replaces": "p-celia-hottenstein",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-lost-boys-p1-1",
+    "production": "the-lost-boys-p1",
+    "number": 1,
+    "date": "2026-03-27",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-lost-boys-p1-31",
+    "production": "the-lost-boys-p1",
+    "number": 31,
+    "date": "2026-04-26",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-1",
+    "production": "the-notebook-p1",
+    "number": 1,
+    "date": "2024-02-10",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-36",
+    "production": "the-notebook-p1",
+    "number": 36,
+    "date": "2024-03-14",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "the-notebook-p1-2024-10-08",
+    "production": "the-notebook-p1",
+    "number": null,
+    "date": "2024-10-08",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Younger Noah",
+        "person": "p-benji-santiago",
+        "replaces": "p-john-cardoza",
+        "type": "replacement"
+      },
+      {
+        "role": "Younger Allie",
+        "person": "p-anna-zavelson",
+        "replaces": "p-jordan-tyson",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "the-notebook-p1-2024-10-22",
+    "production": "the-notebook-p1",
+    "number": null,
+    "date": "2024-10-22",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": [
+      {
+        "role": "Middle Allie",
+        "person": "p-aisha-jackson",
+        "replaces": "p-joy-woods",
+        "type": "replacement"
+      }
+    ]
+  },
+  {
+    "id": "two-strangers-carry-a-cake-across-new-york-p1-1",
+    "production": "two-strangers-carry-a-cake-across-new-york-p1",
+    "number": 1,
+    "date": "2025-11-01",
+    "time": null,
+    "preview": true,
+    "matinee": null,
+    "changes": []
+  },
+  {
+    "id": "two-strangers-carry-a-cake-across-new-york-p1-22",
+    "production": "two-strangers-carry-a-cake-across-new-york-p1",
+    "number": 22,
+    "date": "2025-11-20",
+    "time": null,
+    "preview": false,
+    "matinee": null,
+    "changes": []
   }
 ]

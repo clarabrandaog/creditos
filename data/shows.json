@@ -391,10 +391,6 @@
         "name": "Prince Abdullah"
       },
       {
-        "id": "new-amsterdam-theatre",
-        "name": "New Amsterdam Theatre ("
-      },
-      {
         "id": "jafar",
         "name": "Jafar"
       },
@@ -455,10 +451,6 @@
         "name": "Keith"
       },
       {
-        "id": "neil-simon-theatre",
-        "name": "Neil Simon Theatre ("
-      },
-      {
         "id": "kate",
         "name": "Kate"
       }
@@ -485,10 +477,6 @@
       {
         "id": "claire",
         "name": "Claire"
-      },
-      {
-        "id": "belasco-theatre",
-        "name": "Belasco Theatre ("
       }
     ],
     "synopsis": "",
@@ -528,10 +516,6 @@
       {
         "id": "siren",
         "name": "Siren"
-      },
-      {
-        "id": "circle-in-the-square-theatre",
-        "name": "Circle in the Square Theatre ("
       }
     ],
     "synopsis": "",
@@ -568,10 +552,6 @@
       {
         "id": "mary-s-husband-s-assistant",
         "name": "Mary's Husband's Assistant"
-      },
-      {
-        "id": "lyceum-theatre",
-        "name": "Lyceum Theatre ("
       }
     ],
     "synopsis": "",
@@ -608,10 +588,6 @@
       {
         "id": "johnny-bevan-others",
         "name": "Johnny Bevan & others"
-      },
-      {
-        "id": "john-golden-theatre",
-        "name": "John Golden Theatre ("
       }
     ],
     "synopsis": "",
@@ -645,10 +621,6 @@
       {
         "id": "carson",
         "name": "Carson"
-      },
-      {
-        "id": "nederlander-theatre",
-        "name": "Nederlander Theatre ("
       }
     ],
     "synopsis": "",
@@ -687,10 +659,6 @@
       {
         "id": "mafala-hatimbi",
         "name": "Mafala Hatimbi"
-      },
-      {
-        "id": "eugene-o-neill-theatre",
-        "name": "Eugene O'Neill Theatre ("
       }
     ],
     "synopsis": "",
@@ -698,6 +666,326 @@
       "p-matt-stone",
       "p-robert-lopez",
       "p-trey-parker"
+    ]
+  },
+  {
+    "id": "six-the-musical",
+    "title": "SIX: The Musical",
+    "originalLanguage": "en",
+    "premiereYear": 2021,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "catherine-of-aragon",
+        "name": "Catherine of Aragon"
+      },
+      {
+        "id": "anne-boleyn",
+        "name": "Anne Boleyn"
+      },
+      {
+        "id": "anna-of-cleves",
+        "name": "Anna of Cleves"
+      },
+      {
+        "id": "jane-seymour",
+        "name": "Jane Seymour"
+      },
+      {
+        "id": "katherine-howard",
+        "name": "Katherine Howard"
+      },
+      {
+        "id": "catherine-parr",
+        "name": "Catherine Parr"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-lucy-moss",
+      "p-toby-marlow"
+    ]
+  },
+  {
+    "id": "waitress",
+    "title": "Waitress",
+    "originalLanguage": "en",
+    "premiereYear": 2021,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "jenna",
+        "name": "Jenna"
+      },
+      {
+        "id": "cal",
+        "name": "Cal"
+      },
+      {
+        "id": "becky",
+        "name": "Becky"
+      },
+      {
+        "id": "ogie",
+        "name": "Ogie"
+      },
+      {
+        "id": "dr-pomatter",
+        "name": "Dr. Pomatter"
+      },
+      {
+        "id": "dawn",
+        "name": "Dawn"
+      },
+      {
+        "id": "earl",
+        "name": "Earl"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-sara-bareilles"
+    ]
+  },
+  {
+    "id": "the-lost-boys",
+    "title": "The Lost Boys",
+    "originalLanguage": "en",
+    "premiereYear": 2026,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "michael-emerson",
+        "name": "Michael Emerson"
+      },
+      {
+        "id": "david",
+        "name": "David"
+      },
+      {
+        "id": "alan-frog",
+        "name": "Alan Frog"
+      },
+      {
+        "id": "marko",
+        "name": "Marko"
+      },
+      {
+        "id": "edgar-frog",
+        "name": "Edgar Frog"
+      },
+      {
+        "id": "dwayne",
+        "name": "Dwayne"
+      },
+      {
+        "id": "paul",
+        "name": "Paul"
+      },
+      {
+        "id": "max",
+        "name": "Max"
+      },
+      {
+        "id": "sam-emerson",
+        "name": "Sam Emerson"
+      },
+      {
+        "id": "star",
+        "name": "Star"
+      },
+      {
+        "id": "lucy-emerson",
+        "name": "Lucy Emerson"
+      },
+      {
+        "id": "father",
+        "name": "Father"
+      },
+      {
+        "id": "piercing-shop-owner",
+        "name": "Piercing Shop Owner"
+      },
+      {
+        "id": "comic-book-vampire",
+        "name": "Comic Book Vampire"
+      },
+      {
+        "id": "midway-worker",
+        "name": "Midway Worker"
+      },
+      {
+        "id": "surfer",
+        "name": "Surfer"
+      },
+      {
+        "id": "news-anchor",
+        "name": "News Anchor"
+      },
+      {
+        "id": "mrs-vasquez",
+        "name": "Mrs. Vasquez"
+      },
+      {
+        "id": "sax-guy",
+        "name": "Sax Guy"
+      },
+      {
+        "id": "officer-vasquez",
+        "name": "Officer Vasquez"
+      },
+      {
+        "id": "midway-local",
+        "name": "Midway Local"
+      },
+      {
+        "id": "pete",
+        "name": "Pete"
+      },
+      {
+        "id": "clothing-shop-owner",
+        "name": "Clothing Shop Owner"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-the-rescues"
+    ]
+  },
+  {
+    "id": "the-notebook",
+    "title": "The Notebook",
+    "originalLanguage": "en",
+    "premiereYear": 2024,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "received-its-world-premiere-on-september-28-2022-at-the-yard-at",
+        "name": "Received its World Premiere on September 28, 2022, at The Yard at"
+      },
+      {
+        "id": "in-loving-memory-of",
+        "name": "In loving memory of"
+      },
+      {
+        "id": "younger-noah",
+        "name": "Younger Noah"
+      },
+      {
+        "id": "older-noah",
+        "name": "Older Noah"
+      },
+      {
+        "id": "older-allie",
+        "name": "Older Allie"
+      },
+      {
+        "id": "younger-allie",
+        "name": "Younger Allie"
+      },
+      {
+        "id": "middle-noah",
+        "name": "Middle Noah"
+      },
+      {
+        "id": "middle-allie",
+        "name": "Middle Allie"
+      },
+      {
+        "id": "mother",
+        "name": "Mother"
+      },
+      {
+        "id": "nurse-lori",
+        "name": "Nurse Lori"
+      },
+      {
+        "id": "nurse-joanna",
+        "name": "Nurse Joanna"
+      },
+      {
+        "id": "others",
+        "name": "Others"
+      },
+      {
+        "id": "lon",
+        "name": "Lon"
+      },
+      {
+        "id": "sarah",
+        "name": "Sarah"
+      },
+      {
+        "id": "georgie",
+        "name": "Georgie"
+      },
+      {
+        "id": "johnny",
+        "name": "Johnny"
+      },
+      {
+        "id": "fin",
+        "name": "Fin"
+      },
+      {
+        "id": "father",
+        "name": "Father"
+      },
+      {
+        "id": "son",
+        "name": "Son"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-ingrid-michaelson"
+    ]
+  },
+  {
+    "id": "two-strangers-carry-a-cake-across-new-york",
+    "title": "Two Strangers (Carry a Cake Across New York)",
+    "originalLanguage": "en",
+    "premiereYear": 2025,
+    "origin": "original",
+    "jukebox": false,
+    "acts": 2,
+    "dialogue": true,
+    "genre": "Musical",
+    "style": "Contemporary",
+    "characters": [
+      {
+        "id": "robin",
+        "name": "Robin"
+      },
+      {
+        "id": "dougal",
+        "name": "Dougal"
+      }
+    ],
+    "synopsis": "",
+    "composers": [
+      "p-jim-barne",
+      "p-kit-buchan"
     ]
   }
 ]
